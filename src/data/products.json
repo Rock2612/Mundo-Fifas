@@ -368,45 +368,45 @@
   "articulos": [
     {
       "id": 41,
-      "nombre": "Balon Champions League",
-      "descripcion": "Balon oficial UEFA.",
-      "precio": 2490,
+      "nombre": "Album oficial",
+      "descripcion": "¡Álbum del Mundial completo, impecable y listo para coleccionar con todas sus estampas y superestrellas! Una joya histórica ideal para fanáticos. ¡Que no te lo ganen!",
+      "precio": 349,
       "img": "",
       "badge": "Nuevo",
       "badgeColor": "primary"
     },
     {
       "id": 42,
-      "nombre": "Guantes firmados Buffon",
+      "nombre": "Guantes de portero",
       "descripcion": "Par profesional autenticado.",
-      "precio": 8990,
+      "precio": 499,
       "img": "",
       "badge": "Limitado",
       "badgeColor": "warning"
     },
     {
       "id": 43,
-      "nombre": "Casco NFL firmado Brady",
-      "descripcion": "Helmet de coleccion NFL.",
-      "precio": 22990,
+      "nombre": "Bufanda del mundial",
+      "descripcion": "Bufanda conmemorativa del mundial 2026 de los paises de America.",
+      "precio": 299,
       "img": "",
       "badge": "Firmado",
       "badgeColor": "primary"
     },
     {
       "id": 44,
-      "nombre": "Balon NBA firmado Kobe Bryant",
-      "descripcion": "Balon Spalding oficial.",
-      "precio": 29990,
+      "nombre": "Balon Trionda",
+      "descripcion": "Balon Adidas oficial del Mundial 2026.",
+      "precio": 499,
       "img": "",
       "badge": "Legend",
       "badgeColor": "dark"
     },
     {
       "id": 45,
-      "nombre": "Bat firmado Derek Jeter",
-      "descripcion": "Edicion MLB.",
-      "precio": 15990,
+      "nombre": "Paquetes de estampas Panini",
+      "descripcion": "Paquete de 250 sobres de estampas del album oficial 2026.",
+      "precio": 2550,
       "img": "",
       "badge": "MLB",
       "badgeColor": "secondary"

@@ -14,7 +14,6 @@
     <!-- NAVBAR (Estilo Urbano con links corregidos para regresar al index) -->
     <nav class="navbar navbar-expand-lg fixed-top general-navbar">
         <div class="container">
-            <!-- Sale 2 niveles para ir al index.html en la raíz -->
             <a class="navbar-brand brand-heavy" href="../../index.html">Gift for Fifas</a>
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuRodrigo">
                 <span class="navbar-toggler-icon"></span>
@@ -25,192 +24,32 @@
                 </ul>
                 <div class="d-flex gap-2">
                     <button class="btn btn-nav-outline">Buscar</button>
-                    <button class="btn btn-nav-accent">Carrito (0)</button>
+                    <button class="btn btn-accent">Carrito (0)</button>
                 </div>
             </div>
         </div>
     </nav>
 
     <!-- CABECERA BRUTALISTA -->
-    <header class="world-cup-header text-center">
+    <header class="world-cup-header text-center py-5">
         <div class="container">
-            <span class="badge-edition">Edición Histórica</span>
-            <h1 class="header-title">ACCESORIOS DEL MUNDIAL</h1>
+          
+            <h1 class="header-title mx-auto">GUANTES Y ACCESORIOS</h1>
             <p class="header-subtitle mx-auto">
-                Piezas de colección oficiales, balones históricos y réplicas conmemorativas de las máximas citas mundialistas.
+                Accesorios oficiales del mundial 2026. 
             </p>
         </div>
     </header>
 
-    <!-- FILTROS DE BÚSQUEDA INTERNOS -->
-    <section class="filter-zone py-4">
-        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
-            <div class="d-flex gap-2 flex-wrap">
-                <button class="btn btn-filter active">Todos los Mundiales</button>
-                <button class="btn btn-filter">México 86 / 70</button>
-                <button class="btn btn-filter">Qatar 2022</button>
-                <button class="btn btn-filter">Réplicas Oro</button>
-            </div>
-            <span class="results-count">4 Reliquias disponibles</span>
-        </div>
-    </section>
+    
 
-    <!-- GRID DE PRODUCTOS DE MUNDIALES -->
+    <!-- GRID DE PRODUCTOS DE MUNDIALES (Inyección Dinámica) -->
     <main class="products-grid-section py-5">
         <div class="container">
-            <div class="row g-4">
-                
-                <!-- Producto 1: Balón Azteca -->
-                <div class="col-sm-6 col-xl-3">
-                    <article class="wc-card">
-                        <div class="wc-img-container">
-                            <span class="wc-tag badge-neon">Colección</span>
-                            <!-- Sale 2 niveles a la raíz para buscar la carpeta assets -->
-                            <img src="../../assets/img/rodrigo/panini.jpg" class="wc-image" alt="Panini">
-                        </div>
-                        <div class="wc-body">
-                            <span class="wc-edition-text">FIFA OFICIAL</span>
-                            <h3 class="wc-title">Album HC FIFA 2026</h3>
-                            <p class="wc-desc">Álbum oficial de la Copa del Mundo de la FIFA 2026 de Panini.</p>
-                            <div class="wc-footer">
-                                <span class="wc-price">$349.00 MXN</span>
-                                <button class="btn btn-add-cart">Añadir</button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-
-                <!-- Producto 2: Réplica Copa del Mundo -->
-                <div class="col-sm-6 col-xl-3">
-                    <article class="wc-card">
-                        <div class="wc-img-container">
-                            <span class="wc-tag badge-gold">Premium</span>
-                            <img src="../../assets/img/replica-copa.jpg" class="wc-image" alt="Réplica Trofeo Copa del Mundo">
-                        </div>
-                        <div class="wc-body">
-                            <span class="wc-edition-text">FIFA OFFICIAL</span>
-                            <h3 class="wc-title">Guantes de la selección mexicana</h3>
-                            <p class="wc-desc">Guantes oficiales de la selección mexicana para el mundial 2026. Diseñados por ADIDAS, fusionando un verde  rojo y blnaco patrio con patrones prehispanicos.</p>
-                            <div class="wc-footer">
-                                <span class="wc-price">$1,399 MXN</span>
-                                <button class="btn btn-add-cart">Añadir</button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-
-                <!-- Producto 3: Gafete de Capitán Qatar -->
-                <div class="col-sm-6 col-xl-3">
-                    <article class="wc-card">
-                        <div class="wc-img-container">
-                            <span class="wc-tag badge-dark">Último</span>
-                            <img src="../../assets/img/gafete-qatar.jpg" class="wc-image" alt="Gafete Oficial de Capitán">
-                        </div>
-                        <div class="wc-body">
-                            <span class="wc-edition-text">QATAR 2022</span>
-                            <h3 class="wc-title">Gafete de Capitán "Football Unites"</h3>
-                            <p class="wc-desc">Réplica oficial del brazalete utilizado por los capitanes durante la fase final del torneo de 2022.</p>
-                            <div class="wc-footer">
-                                <span class="wc-price">$520 MXN</span>
-                                <button class="btn btn-add-cart">Añadir</button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-
-                <!-- Producto 4: Bufanda Conmemorativa -->
-                <div class="col-sm-6 col-xl-3">
-                    <article class="wc-card">
-                        <div class="wc-img-container">
-                            <span class="wc-tag badge-neon">Colección</span>
-                            <img src="../../assets/img/bufanda-mundial.jpg" class="wc-image" alt="Bufanda conmemorativa de mundiales">
-                        </div>
-                        <div class="wc-body">
-                            <span class="wc-edition-text">FIFA OFICIAL</span>
-                            <h3 class="wc-title">Bufanda "Línea del Tiempo"</h3>
-                            <p class="wc-desc">Tejido Jacquard premium que recopila los emblemas tipográficos de todos los mundiales de la historia.</p>
-                            <div class="wc-footer">
-                                <span class="wc-price">$380 MXN</span>
-                                <button class="btn btn-add-cart">Añadir</button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                
-                <!-- Producto 5: Balón Jabulani -->
-                <div class="col-sm-6 col-xl-3">
-                    <article class="wc-card">
-                        <div class="wc-img-container">
-                            <span class="wc-tag badge-dark">Más vendido</span>
-                            <img src="../../assets/img/balon-jabulani.jpg" class="wc-image" alt="Balón Jabulani Sudáfrica 2010">
-                        </div>
-                        <div class="wc-body">
-                            <span class="wc-edition-text">FIFA OFICIAL</span>
-                            <h3 class="wc-title">Balón Oficial Jabulani (Réplica)</h3>
-                            <p class="wc-desc">El balón más polémico e icónico de los últimos tiempos. Famoso por su trayectoria impredecible y diseño vibrante.</p>
-                            <div class="wc-footer">
-                                <span class="wc-price">$1,950 MXN</span>
-                                <button class="btn btn-add-cart">Añadir</button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-
-                <!-- Producto 6: Gafete de Maradona -->
-                <div class="col-sm-6 col-xl-3">
-                    <article class="wc-card">
-                        <div class="wc-img-container">
-                            <span class="wc-tag badge-neon">Leyenda</span>
-                            <img src="../../assets/img/gafete-maradona.jpg" class="wc-image" alt="Gafete Capitán Maradona 1986">
-                        </div>
-                        <div class="wc-body">
-                            <span class="wc-edition-text">MÉXICO 1986</span>
-                            <h3 class="wc-title">Brazalete de Capitán Histórico</h3>
-                            <p class="wc-desc">Réplica exacta con la emblemática letra "C" utilizada por Diego Armando Maradona en la histórica campaña del 86.</p>
-                            <div class="wc-footer">
-                                <span class="wc-price">$490 MXN</span>
-                                <button class="btn btn-add-cart">Añadir</button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-
-                <!-- Producto 7: Álbum Panini 2006 -->
-                <div class="col-sm-6 col-xl-3">
-                    <article class="wc-card">
-                        <div class="wc-img-container">
-                            <span class="wc-tag badge-gold">Colección</span>
-                            <img src="../../assets/img/album-2006.jpg" class="wc-image" alt="Álbum Panini Alemania 2006 Completo">
-                        </div>
-                        <div class="wc-body">
-                            <span class="wc-edition-text">ALEMANIA 2006</span>
-                            <h3 class="wc-title">Álbum Panini 100% Completo</h3>
-                            <p class="wc-desc">Edición nostálgica completamente llena con todas las estampas originales pegadas a la perfección. Estado 10/10.</p>
-                            <div class="wc-footer">
-                                <span class="wc-price">$4,200 MXN</span>
-                                <button class="btn btn-add-cart">Añadir</button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-
-                <!-- Producto 8: Medalla de Campeón -->
-                <div class="col-sm-6 col-xl-3">
-                    <article class="wc-card">
-                        <div class="wc-img-container">
-                            <span class="wc-tag badge-gold">Premium</span>
-                            <img src="../../assets/img/medalla-qatar.jpg" class="wc-image" alt="Réplica Medalla de Campeón Qatar 2022">
-                        </div>
-                        <div class="wc-body">
-                            <span class="wc-edition-text">QATAR 2022</span>
-                            <h3 class="wc-title">Medalla de Campeón (Réplica Oficial)</h3>
-                            <p class="wc-desc">Réplica pesada de metal fundido con listón serigrafiado oficial del torneo. Idéntica a la entregada en la final.</p>
-                            <div class="wc-footer">
-                                <span class="wc-price">$1,350 MXN</span>
-                                <button class="btn btn-add-cart">Añadir</button>
-                            </div>
-                        </div>
-                    </article>
+            <!-- Aquí Javascript meterá las tarjetas usando tus estilos .wc-card -->
+            <div class="row g-4" id="contenedor-mundiales">
+                <div class="col-12 text-center">
+                    <p class="text-muted">Conectando con el almacén de reliquias...</p>
                 </div>
             </div>
         </div>
@@ -224,7 +63,8 @@
         </div>
     </footer>
 
-    <!-- Bootstrap JS Bundle -->
+    <!-- Vinculación de Scripts -->
+    <script src="rodrigo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
