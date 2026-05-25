@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+    --tinta: #111315;
+    --texto-suave: #687076;
+    --soft-bg: #f4f5f1;
+    --linea: #e5e1d9;
+    --acento: #d7ff3f;
+}
+
+* {
+    letter-spacing: 0;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    color: var(--tinta);
+    background: #fff;
+}
+
+.fw-black-custom {
+    font-weight: 900;
+}
+
+.navbar {
+    min-height: 72px;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: #3b3f42;
+}
+
+.hero-section {
+    position: relative;
+    min-height: 760px;
+    overflow: hidden;
+    background: #101010;
+}
+
+.hero-image {
+    position: absolute;
+    inset: 0;
+    background-image: url("assets/img/fataticos.jpg");
+    background-size: cover;
+    background-position: center top;
+    transform: scale(1.03);
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(90deg, rgba(10, 10, 10, .9) 0%, rgba(10, 10, 10, .62) 44%, rgba(10, 10, 10, .26) 100%),
+        linear-gradient(0deg, rgba(10, 10, 10, .58) 0%, rgba(10, 10, 10, .04) 48%);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.text-white-soft {
+    color: rgba(255, 255, 255, .76);
+}
+
+.label-pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 0 14px;
+    border: 1px solid rgba(255, 255, 255, .28);
+    border-radius: 999px;
+    color: #fff;
+    font-size: .78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.label-light {
+    border-color: var(--linea);
+    color: var(--texto-suave);
+    background: #fff;
+}
+
+.btn {
+    border-radius: 999px;
+    font-weight: 800;
+}
+
+.btn-accent {
+    color: #101010;
+    background: var(--acento);
+    border-color: var(--acento);
+}
+
+.btn-accent:hover {
+    color: #101010;
+    background: #c6ef31;
+    border-color: #c6ef31;
+}
+
+.hero-stats-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    max-width: 460px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .22);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, .18);
+    backdrop-filter: blur(18px);
+}
+
+.hero-stats-panel > div {
+    min-width: 0;
+    padding: 18px;
+    background: rgba(255, 255, 255, .12);
+}
+
+.hero-stats-panel strong,
+.hero-stats-panel span {
+    display: block;
+    color: #fff;
+}
+
+.stat-label {
+    margin-bottom: 5px;
+    font-size: .72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .62) !important;
+}
+
+.trust-strip {
+    padding: 26px 0;
+    border-bottom: 1px solid var(--linea);
+    background: var(--tinta);
+}
+
+.trust-title {
+    color: #fff;
+    font-weight: 900;
+}
+
+.trust-text {
+    color: rgba(255, 255, 255, .66);
+}
+
+.section-spacing {
+    padding: 88px 0;
+}
+
+.soft-bg {
+    background: var(--soft-bg);
+}
+
+.section-title {
+    max-width: 760px;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 900;
+    line-height: 1;
+}
+
+.category-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 260px;
+    padding: 22px;
+    border-radius: 8px;
+    color: #fff;
+    overflow: hidden;
+    isolation: isolate;
+    background: var(--tinta);
+}
+
+.category-card::after {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 0, 0, .08) 0%, rgba(0, 0, 0, .82) 100%);
+}
+
+.category-image {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform .3s ease;
+}
+
+.category-card:hover .category-image {
+    transform: scale(1.06);
+}
+
+.category-card span {
+    font-size: .78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: .8;
+}
+
+.category-card strong {
+    max-width: 190px;
+    font-size: 1.55rem;
+    line-height: 1.05;
+}
+
+.product-search .input-group-text,
+.product-search .form-control {
+    min-height: 56px;
+    border-color: var(--linea);
+    border-radius: 999px;
+}
+
+.product-search .input-group-text {
+    padding-left: 20px;
+    background: #fff;
+    font-weight: 800;
+}
+
+.product-search .form-control {
+    padding-right: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid var(--linea);
+    border-radius: 8px;
+    background: #fff;
+}
+
+.product-image-wrapper {
+    height: 245px;
+    background: #f6f6f3;
+}
+
+.product-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.product-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.product-body .badge {
+    align-self: flex-start;
+    padding: 6px 12px;
+    border-radius: 999px;
+}
+
+.product-body h3 {
+    margin: 14px 0 8px;
+    font-size: 1.14rem;
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+.product-body p {
+    flex: 1;
+    color: var(--texto-suave);
+}
+
+.editorial-image {
+    min-height: 420px;
+    border-radius: 8px;
+    background-image:
+        linear-gradient(180deg, rgba(0, 0, 0, .04), rgba(0, 0, 0, .08)),
+        url("assets/img/memorabilia.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.mini-stat {
+    padding: 22px;
+    border: 1px solid var(--linea);
+    border-radius: 8px;
+    background: #fff;
+}
+
+.mini-stat strong,
+.mini-stat span {
+    display: block;
+}
+
+.mini-stat strong {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.mini-stat span {
+    color: var(--texto-suave);
+}
+
+.site-footer {
+    padding: 54px 0;
+    color: #fff;
+    background: #111315;
+}
+
+@media (max-width: 991.98px) {
+    .hero-section {
+        min-height: 700px;
+    }
+
+    .display-3 {
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar {
+        min-height: 64px;
+    }
+
+    .hero-section {
+        min-height: 760px;
+    }
+
+    .display-3 {
+        font-size: 2.55rem;
+    }
+
+    .hero-stats-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .section-spacing {
+        padding: 60px 0;
+    }
+
+    .category-card {
+        min-height: 210px;
+        padding: 18px;
+    }
+
+    .category-card strong {
+        font-size: 1.2rem;
+    }
+
+    .product-image-wrapper {
+        height: 230px;
+    }
+}
