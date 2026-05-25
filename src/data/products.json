@@ -185,10 +185,10 @@
   "firmados": [
     {
       "id": 21,
-      "nombre": "Jersey firmado Lionel Messi",
+      "nombre": "Jersey firmado Messi",
       "descripcion": "Autografiado con certificado.",
       "precio": 18990,
-      "img": "",
+      "img": "assets/img/firmados/messi.webp",
       "badge": "Firmado",
       "badgeColor": "primary"
     },
@@ -197,7 +197,7 @@
       "nombre": "Jersey firmado Cristiano R.",
       "descripcion": "Edicion limitada.",
       "precio": 17990,
-      "img": "/src/assets/milan.avif",
+      "img": "assets/img/firmados/ronaldo.jpg",
       "badge": "Firmado",
       "badgeColor": "dark"
     },
@@ -206,7 +206,7 @@
       "nombre": "Jersey firmado Neymar Jr",
       "descripcion": "Con folio internacional.",
       "precio": 12990,
-      "img": "",
+      "img": "assets/img/firmados/ney.webp",
       "badge": "Firmado",
       "badgeColor": "warning"
     },
@@ -215,7 +215,7 @@
       "nombre": "Jersey firmado Ronaldinho",
       "descripcion": "Edicion premium.",
       "precio": 14990,
-      "img": "",
+      "img": "assets/img/firmados/ronaldinho.avif",
       "badge": "Firmado",
       "badgeColor": "dark"
     },
@@ -224,7 +224,7 @@
       "nombre": "Jersey firmado Zidane",
       "descripcion": "Coleccion mundialista.",
       "precio": 16990,
-      "img": "",
+      "img": "assets/img/firmados/zidane.jpg",
       "badge": "Firmado",
       "badgeColor": "secondary"
     },
@@ -233,52 +233,52 @@
       "nombre": "Jersey firmado Mbappe",
       "descripcion": "Temporada especial PSG.",
       "precio": 11990,
-      "img": "",
+      "img": "assets/img/firmados/mbappe.jpg",
       "badge": "Firmado",
       "badgeColor": "primary"
     },
     {
       "id": 27,
-      "nombre": "Jersey firmado Luka Modric",
+      "nombre": "Jersey firmado Modric",
       "descripcion": "Autografo autenticado.",
       "precio": 9990,
-      "img": "",
+      "img": "assets/img/firmados/modric.jpg",
       "badge": "Firmado",
       "badgeColor": "light"
     },
     {
       "id": 28,
-      "nombre": "Jersey firmado Paolo Maldini",
+      "nombre": "Jersey firmado Maldini",
       "descripcion": "Leyenda del Milan.",
       "precio": 17990,
-      "img": "",
+      "img": "assets/img/firmados/maldini.webp",
       "badge": "Firmado",
       "badgeColor": "danger"
     },
     {
       "id": 29,
-      "nombre": "Jersey firmado Thierry Henry",
+      "nombre": "Jersey firmado T. Henry",
       "descripcion": "Edicion Arsenal.",
       "precio": 13990,
-      "img": "",
+      "img": "assets/img/firmados/henry.webp",
       "badge": "Firmado",
       "badgeColor": "danger"
     },
     {
       "id": 30,
-      "nombre": "Jersey firmado Andrea Pirlo",
+      "nombre": "Jersey firmado Pirlo",
       "descripcion": "Pieza exclusiva italiana.",
       "precio": 10990,
-      "img": "",
+      "img": "assets/img/firmados/pirlo.jpg",
       "badge": "Firmado",
       "badgeColor": "secondary"
     },
     {
       "id": 31,
-      "nombre": "Jersey firmado Sergio Ramos",
+      "nombre": "Jersey firmado Ramos",
       "descripcion": "Capitan historico.",
       "precio": 11990,
-      "img": "",
+      "img": "assets/img/firmados/ramos.jpg",
       "badge": "Firmado",
       "badgeColor": "light"
     },
@@ -287,7 +287,7 @@
       "nombre": "Jersey firmado Kaká",
       "descripcion": "Balon de Oro.",
       "precio": 14990,
-      "img": "",
+      "img": "assets/img/firmados/kaka.jpg",
       "badge": "Firmado",
       "badgeColor": "danger"
     },
@@ -296,7 +296,7 @@
       "nombre": "Jersey firmado Iniesta",
       "descripcion": "Gol mundialista.",
       "precio": 15990,
-      "img": "",
+      "img": "assets/img/firmados/iniesta.jpg",
       "badge": "Firmado",
       "badgeColor": "primary"
     },
@@ -305,7 +305,7 @@
       "nombre": "Jersey firmado Xavi",
       "descripcion": "Maestro del mediocampo.",
       "precio": 13990,
-      "img": "",
+      "img": "assets/img/firmados/xavi.jpg",
       "badge": "Firmado",
       "badgeColor": "primary"
     },
@@ -314,7 +314,7 @@
       "nombre": "Jersey firmado Buffon",
       "descripcion": "Leyenda italiana.",
       "precio": 12990,
-      "img": "",
+      "img": "assets/img/firmados/buffonJ.jpg",
       "badge": "Firmado",
       "badgeColor": "secondary"
     },
@@ -323,7 +323,7 @@
       "nombre": "Jersey firmado Rooney",
       "descripcion": "Coleccion United.",
       "precio": 11990,
-      "img": "",
+      "img": "assets/img/firmados/rooney.jpg",
       "badge": "Firmado",
       "badgeColor": "danger"
     },
@@ -332,7 +332,7 @@
       "nombre": "Jersey firmado Drogba",
       "descripcion": "Icono del Chelsea.",
       "precio": 10990,
-      "img": "",
+      "img": "assets/img/firmados/drogba.jpg",
       "badge": "Firmado",
       "badgeColor": "primary"
     },
@@ -341,7 +341,7 @@
       "nombre": "Jersey firmado Gerrard",
       "descripcion": "Capitan legendario.",
       "precio": 12990,
-      "img": "",
+      "img": "assets/img/firmados/gerrard.jpg",
       "badge": "Firmado",
       "badgeColor": "danger"
     },
@@ -350,7 +350,7 @@
       "nombre": "Jersey firmado Del Piero",
       "descripcion": "Edicion Juventus.",
       "precio": 13990,
-      "img": "",
+      "img": "assets/img/firmados/delpiero.webp",
       "badge": "Firmado",
       "badgeColor": "secondary"
     },
@@ -359,7 +359,7 @@
       "nombre": "Jersey firmado Beckham",
       "descripcion": "Coleccion inglesa.",
       "precio": 16990,
-      "img": "",
+      "img": "assets/img/firmados/beckham.jpg",
       "badge": "Firmado",
       "badgeColor": "light"
     }
