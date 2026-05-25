@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Oficial -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vinculación al CSS específico de esta página (rodrigo.css) -->
+    <link rel="stylesheet" href="rodrigo.css">
+    <title>Accesorios del Mundial | Gift for Fifas</title>
+</head>
+<body>
+
+    <!-- NAVBAR (Estilo Urbano con links corregidos para regresar al index) -->
+    <nav class="navbar navbar-expand-lg fixed-top general-navbar">
+        <div class="container">
+            <!-- Sale 2 niveles para ir al index.html en la raíz -->
+            <a class="navbar-brand brand-heavy" href="../../index.html">Gift for Fifas</a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuRodrigo">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuRodrigo">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../../index.html#inicio">Inicio</a></li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-nav-outline">Buscar</button>
+                    <button class="btn btn-nav-accent">Carrito (0)</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CABECERA BRUTALISTA -->
+    <header class="world-cup-header text-center">
+        <div class="container">
+            <span class="badge-edition">Edición Histórica</span>
+            <h1 class="header-title">ACCESORIOS DEL MUNDIAL</h1>
+            <p class="header-subtitle mx-auto">
+                Piezas de colección oficiales, balones históricos y réplicas conmemorativas de las máximas citas mundialistas.
+            </p>
+        </div>
+    </header>
+
+    <!-- FILTROS DE BÚSQUEDA INTERNOS -->
+    <section class="filter-zone py-4">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div class="d-flex gap-2 flex-wrap">
+                <button class="btn btn-filter active">Todos los Mundiales</button>
+                <button class="btn btn-filter">México 86 / 70</button>
+                <button class="btn btn-filter">Qatar 2022</button>
+                <button class="btn btn-filter">Réplicas Oro</button>
+            </div>
+            <span class="results-count">4 Reliquias disponibles</span>
+        </div>
+    </section>
+
+    <!-- GRID DE PRODUCTOS DE MUNDIALES -->
+    <main class="products-grid-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                
+                <!-- Producto 1: Balón Azteca -->
+                <div class="col-sm-6 col-xl-3">
+                    <article class="wc-card">
+                        <div class="wc-img-container">
+                            <span class="wc-tag badge-neon">Histórico</span>
+                            <!-- Sale 2 niveles a la raíz para buscar la carpeta assets -->
+                            <img src="../../assets/img/balon-azteca.jpg" class="wc-image" alt="Balón Azteca México 1986">
+                        </div>
+                        <div class="wc-body">
+                            <span class="wc-edition-text">MÉXICO 1986</span>
+                            <h3 class="wc-title">Balón Oficial Azteca (Réplica)</h3>
+                            <p class="wc-desc">El primer balón completamente sintético de la historia. Diseño inspirado en la arquitectura azteca.</p>
+                            <div class="wc-footer">
+                                <span class="wc-price">$1,890 MXN</span>
+                                <button class="btn btn-add-cart">Añadir</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Producto 2: Réplica Copa del Mundo -->
+                <div class="col-sm-6 col-xl-3">
+                    <article class="wc-card">
+                        <div class="wc-img-container">
+                            <span class="wc-tag badge-gold">Premium</span>
+                            <img src="../../assets/img/replica-copa.jpg" class="wc-image" alt="Réplica Trofeo Copa del Mundo">
+                        </div>
+                        <div class="wc-body">
+                            <span class="wc-edition-text">FIFA OFFICIAL</span>
+                            <h3 class="wc-title">Réplica Copa del Mundo (21cm)</h3>
+                            <p class="wc-desc">Escala exacta con baño de oro de 14k y base de malaquita sintética pesada. Incluye estuche rígido.</p>
+                            <div class="wc-footer">
+                                <span class="wc-price">$3,450 MXN</span>
+                                <button class="btn btn-add-cart">Añadir</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Producto 3: Gafete de Capitán Qatar -->
+                <div class="col-sm-6 col-xl-3">
+                    <article class="wc-card">
+                        <div class="wc-img-container">
+                            <span class="wc-tag badge-dark">Último</span>
+                            <img src="../../assets/img/gafete-qatar.jpg" class="wc-image" alt="Gafete Oficial de Capitán">
+                        </div>
+                        <div class="wc-body">
+                            <span class="wc-edition-text">QATAR 2022</span>
+                            <h3 class="wc-title">Gafete de Capitán "Football Unites"</h3>
+                            <p class="wc-desc">Réplica oficial del brazalete utilizado por los capitanes durante la fase final del torneo de 2022.</p>
+                            <div class="wc-footer">
+                                <span class="wc-price">$520 MXN</span>
+                                <button class="btn btn-add-cart">Añadir</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Producto 4: Bufanda Conmemorativa -->
+                <div class="col-sm-6 col-xl-3">
+                    <article class="wc-card">
+                        <div class="wc-img-container">
+                            <span class="wc-tag badge-neon">Colección</span>
+                            <img src="../../assets/img/bufanda-mundial.jpg" class="wc-image" alt="Bufanda conmemorativa de mundiales">
+                        </div>
+                        <div class="wc-body">
+                            <span class="wc-edition-text">URUGUAY 1930 - 2026</span>
+                            <h3 class="wc-title">Bufanda "Línea del Tiempo"</h3>
+                            <p class="wc-desc">Tejido Jacquard premium que recopila los emblemas tipográficos de todos los mundiales de la historia.</p>
+                            <div class="wc-footer">
+                                <span class="wc-price">$380 MXN</span>
+                                <button class="btn btn-add-cart">Añadir</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="wc-footer-section">
+        <div class="container text-center">
+            <h2 class="footer-logo">Gift for Fifas</h2>
+            <p class="footer-copy">© 2026 - Catálogo de Accesorios Especializados. Creado por Rodrigo.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
