@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Gift for Fifas</title>
+    <title>Gift for Fifas | Jerseys Retro y Memorabilia</title>
 </head>
+
 <body>
+
     <nav class="navbar navbar-expand-lg fixed-top bg-white border-bottom">
         <div class="container">
-            <a class="navbar-brand fw-black-custom" href="#">Gift for Fifas</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+            <a class="navbar-brand fw-black-custom" href="#">GiftforFifas.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuPrincipal">
@@ -101,8 +105,10 @@
                 <div class="row align-items-end min-vh-100">
                     <div class="col-lg-7 pb-5">
                         <span class="label-pill">Jerseys retro y articulos deportivos</span>
-                        <h1 class="display-3 fw-black-custom text-white mt-3 mb-4">Piezas de coleccion para fanaticos reales.</h1>
-                        <p class="lead text-white-soft mb-4">Encuentra jerseys historicos, balones, guantes y memorabilia firmada con certificado de autenticidad.</p>
+                        <h1 class="display-3 fw-black-custom text-white mt-3 mb-4">Piezas de coleccion para fanaticos
+                            reales.</h1>
+                        <p class="lead text-white-soft mb-4">Encuentra jerseys historicos, balones, guantes y
+                            memorabilia firmada con certificado de autenticidad.</p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
                             <a href="#firmados" class="btn btn-accent btn-lg">Ver articulos firmados</a>
                             <a href="#colecciones" class="btn btn-light btn-lg">Explorar tienda</a>
@@ -159,29 +165,35 @@
 
                 <div class="row g-3">
                     <div class="col-6 col-lg-3">
-                        <article class="category-card">
-                            <img src="assets/img/retro.avif" class="category-image" alt="Jerseys retro colgados en tienda">
-                            <span>Jerseys retro</span>
-                            <strong>Temporadas clasicas</strong>
-                        </article>
+                        <a href="/src/pages/jerseys.html">
+                            <article class="category-card">
+                                <img src="assets/img/home/clasicas.jpg" class="category-image"
+                                    alt="Jerseys retro colgados en tienda">
+                                <span>Jerseys retro</span>
+                                <strong>Temporadas clasicas</strong>
+                            </article>
+                        </a>
                     </div>
                     <div class="col-6 col-lg-3">
                         <article class="category-card">
-                            <img src="assets/img/balon-firmado.jpg" class="category-image" alt="Balon firmado de coleccion">
+                            <img src="assets/img/home/balon-firmado.jpg" class="category-image"
+                                alt="Balon firmado de coleccion">
                             <span>Balones</span>
                             <strong>Firmados y oficiales</strong>
                         </article>
                     </div>
                     <div class="col-6 col-lg-3">
                         <article class="category-card">
-                            <img src="assets/img/articulos-deportivos.webp" class="category-image" alt="Articulos deportivos para entrenamiento">
+                            <img src="assets/img/home/articulos-deportivos.webp" class="category-image"
+                                alt="Articulos deportivos para entrenamiento">
                             <span>Training</span>
                             <strong>Guantes y accesorios</strong>
                         </article>
                     </div>
                     <div class="col-6 col-lg-3">
                         <article class="category-card">
-                            <img src="assets/img/memorabilia.jpg" class="category-image" alt="Memorabilia deportiva en exhibicion">
+                            <img src="assets/img/home/memorabilia.jpg" class="category-image"
+                                alt="Memorabilia deportiva en exhibicion">
                             <span>Memorabilia</span>
                             <strong>Ediciones limitadas</strong>
                         </article>
@@ -205,71 +217,22 @@
                     </div>
                 </div>
 
-                <div id="lista-productos" class="row g-4">
-                    <div class="col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-image-wrapper">
-                                <img src="assets/img/magic-Jonhson.webp" class="product-image" alt="Balon de basquet firmado por Magic Johnson">
-                            </div>
-                            <div class="product-body">
-                                <span class="badge text-bg-dark">Firmado</span>
-                                <h3>Balon de basquet firmado por Magic Johnson</h3>
-                                <p>Edicion local con certificado y caja rigida.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <strong>$4,890 MXN</strong>
-                                    <button class="agregar-carrito btn btn-sm btn-outline-dark" data-id="1">Ver</button>
-                                </div>
-                            </div>
+                <div id="signedProductsCarousel" class="carousel slide product-carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner" id="signedProductsCarouselInner">
+                        <div class="carousel-item active">
+                            <div class="product-loading">Cargando productos...</div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3">
-                        <article class="product-card">
-                            <div class="product-image-wrapper">
-                                <img src="assets/img/milan.avif" class="product-image" alt="Jersey conmemorativo del Milan">
-                            </div>
-                            <div class="product-body">
-                                <span class="badge text-bg-danger">Nuevo</span>
-                                <h3 id="titulo">Jersey Milan 125 anos</h3>
-                                <p>Jersey conmemorativo de la celebracion del 125 aniversario del club.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <strong>$3,250 MXN</strong>
-                                    <button class=" agregar-carrito btn btn-sm btn-outline-dark" data-id="2">Ver</button>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-6 col-xl-3">
-                        <article class="product-card">
-                            <div class="product-image-wrapper">
-                                <img src="assets/img/francia98.jpg" class="product-image" alt="Jersey de Mexico en Francia 98">
-                            </div>
-                            <div class="product-body">
-                                <span class="badge text-bg-dark">Retro</span>
-                                <h3>Jersey de Mexico en Francia 98</h3>
-                                <p>Numero bordado, firma al frente y folio.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <strong>$5,600 MXN</strong>
-                                    <button class="agregar-carrito btn btn-sm btn-outline-dark" data-id="3">Ver</button>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-6 col-xl-3">
-                        <article class="product-card">
-                            <div class="product-image-wrapper">
-                                <img src="assets/img/buffon.png" class="product-image" alt="Guantes firmados por Gianluigi Buffon">
-                            </div>
-                            <div class="product-body">
-                                <span class="badge text-bg-warning">Limitado</span>
-                                <h3>Guantes de Gianluigi Buffon</h3>
-                                <p>Par firmado, fotografia de autenticacion.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <strong>$2,990 MXN</strong>
-                                    <button class="agregar-carrito btn btn-sm btn-outline-dark" data-id="4">Ver</button>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+                    <button class="carousel-control-prev product-carousel-control" type="button"
+                        data-bs-target="#signedProductsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next product-carousel-control" type="button"
+                        data-bs-target="#signedProductsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
                 </div>
             </div>
         </section>
@@ -278,12 +241,14 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">
-                        <div class="editorial-image"></div>
+                        <div class="editorial-image">
+                        </div>
                     </div>
                     <div class="col-lg-6" id="nosotros">
                         <span class="label-pill label-light">Servicio premium</span>
                         <h2 class="section-title">Armamos tu regalo deportivo de alto impacto.</h2>
-                        <p class="text-secondary fs-5">Seleccionamos la pieza, validamos autenticidad, preparamos empaque y la enviamos lista para sorprender.</p>
+                        <p class="text-secondary fs-5">Seleccionamos la pieza, validamos autenticidad, preparamos
+                            empaque y la enviamos lista para sorprender.</p>
                         <div class="row g-3 mt-2">
                             <div class="col-sm-6">
                                 <div class="mini-stat">
@@ -423,4 +388,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script type="module" src="app.js"></script>
 </body>
+
 </html>
