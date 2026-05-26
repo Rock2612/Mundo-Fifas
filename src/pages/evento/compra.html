@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Compra de boletos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+
+<section class="ticket-form card shadow p-4" style="max-width: 480px; width: 100%;">
+  <header class="form-header mb-3">
+    <h2 class="h5">Compra de boletos</h2>
+  </header>
+
+  <form id="purchaseForm" class="text-center">
+    <div class="mb-2">
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" required>
+    </div>
+
+    <div class="mb-2">
+      <input type="email" class="form-control" id="correo" placeholder="Correo electrónico" required>
+    </div>
+
+    <div class="mb-2">
+      <p id="boletosTotal" class="fw-bold">Num. boletos:</p>
+    </div>
+
+    <div class="mb-2">
+      <input type="number" class="form-control" id="boletos" min="1" max="10" value="1" required placeholder="Cantidad de boletos">
+    </div>
+
+    <div class="mb-2">
+      <p id="precioTotal" class="fw-bold">$2200 MXN</p>
+    </div>
+
+    <div class="mb-2">
+      <select id="metodo" class="form-select" required>
+        <option value="">Método de pago...</option>
+        <option value="tarjeta">Tarjeta</option>
+      </select>
+    </div>
+
+    <!-- Bloques dinámicos -->
+    <div id="pagoTarjeta" class="pago-opcion d-none">
+      <h4 class="h6">Detalles de tarjeta</h4>
+      
+      <input type="text" class="form-control mb-2" id="numTarjeta" placeholder="Número de tarjeta (16 dígitos)">
+      <div class="invalid-feedback">Debe contener exactamente 16 números.</div>
+      
+      <input type="text" class="form-control mb-2" id="nombreTarjeta" placeholder="Nombre en la tarjeta">
+      
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control mb-2" id="expTarjeta" placeholder="Expiración (MM/AA)">
+          <div class="invalid-feedback">Formato inválido. Ejemplo correcto: 02/28</div>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control mb-2" id="cvvTarjeta" placeholder="NIP / CVV (3 dígitos)">
+          <div class="invalid-feedback">Debe contener exactamente 3 números.</div>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-accent mt-3 w-100">Adquirir boletos</button>
+  </form>
+</section>
+
+<!-- Modal de confirmación -->
+<div class="modal fade" id="successModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-4">
+      <h5 class="mb-3">✅ Compra exitosa</h5>
+      <p>Tu compra fue realizada con éxito.<br>Se enviaron los boletos al correo: <span id="correoConfirm"></span></p>
+      <button class="btn btn-accent mt-3" data-bs-dismiss="modal" onclick="window.location.href='../../index.html'">Aceptar</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+</body>
+</html>
