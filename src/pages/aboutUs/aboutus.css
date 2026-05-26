@@ -1,89 +1,20 @@
-/*Paleta de colores*/
-:root {
-    --color-bg-dark: rgba(17, 12, 28, 0.85);
-    --color-border-muted: #4a2840;
-    --color-neon-green: #CCFF00;
-    --color-text-muted: #d0c8d8;
-    --color-text-white: #ffffff;
-    --color-btntext-black: #000000;
-
-}
-
-body {
-    background-image: url("/src/assets/img/aboutUs/background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /*Mantiene el fondo estático al hacer scroll*/
-}
-
-.about-us {
-    text-align: center;
-    padding: 1rem 1.5rem;
-    max-width: 750px;
-    margin: 0 auto;
-}
-
-h1 {
-    color: var(--color-text-white);
-    font-size: 2.5rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 1.5rem;
-    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
-}
-
-.introduction {
-color: var(--color-text-muted);
-font-size: 1.15rem;
-line-height: 1.7;
-max-width: 750px;
-margin: 0 auto;
-text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-}
-.row--staggered { /*Declara los bloques de las cards como escalonados*/
-    min-height: 625px;
+.about-hero {
+    --page-hero-image: url("/src/assets/img/aboutUs/background.jpg");
 }
 
 .info-card {
-    background-color: var(--color-bg-dark); /*Color de fondo*/
-    border: 1px solid var(--color-border-muted);
-    padding: 1.5rem;
-    border-radius: 1rem;
-    transition: all 0.5s ease;
-    transform: scale(0.9);
-}
-
-.info-card_title {
-    color: var(--color-neon-green);
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.info-card_text {
-    color: var(--color-text-muted);
-    font-size: 0.95rem;
-    line-height: 1.5;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    min-height: 310px;
 }
 
 .info-card--is-active {
-    border-color: var(--color-neon-green);
-    box-shadow: 0 0 20px rgba(204, 255, 0, 0.3);
-    transform: scale(1.2);
+    border-color: var(--acento);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, .1);
 }
 
-.btn {
-background-color: var(--color-neon-green);
-color: #000000;
-font-weight: bold;
-padding: 10px 20px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #00cc52;
+@media (max-width: 991.98px) {
+    .info-card {
+        min-height: auto;
+    }
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STORE</title>
+    <title>Gift for Fifas | Servicios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/src/style.css">
 </head>
@@ -12,18 +12,19 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-white border-bottom">
         <div class="container">
-            <a class="navbar-brand fw-black-custom" href="#">Gift for Fifas</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+            <a class="navbar-brand fw-black-custom" href="/src/index.html">GiftforFifas.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuPrincipal">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pages/store/store.html">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#colecciones">Tienda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#firmados">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/src/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/src/pages/aboutUs/aboutus.html">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/src/index.html#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/src/pages/Servicios/servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/src/pages/store/store.html">Tienda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/src/pages/articulosFirmados/artfirmados.html">Ofertas</a></li>
                 </ul>
                 <div class="d-flex gap-2">
                     <button class="btn btn-outline-dark btn-sm">Buscar</button>
@@ -32,218 +33,245 @@
             </div>
         </div>
     </nav>
-    <main class="container my-5 pt-5 mt-4">
 
-    <main class="container my-5 pt-5 mt-4">
-        <section id="seccion-servicios" class="bg-light p-4 rounded-3">
-            <h2 class="mb-4 text-center fw-bold">Servicios</h2>
-            <div class="d-flex gap-4 overflow-auto pb-3 mb-5">
-                <div class="card p-3 shadow-sm border-0" style="min-width: 280px;">
-                    <img src="/src/assets/img/servicios/saludos.png" class="card-img-top rounded mb-3" alt="Saludos">
-                    <div class="card-body d-flex flex-column p-0">
-                        <h5 class="card-title fw-bold">Comprar saludos</h5>
-                        <p class="card-text text-muted flex-grow-1 small">Vídeo personalizado para una ocasión especial, cumpleaños, sorpresa, etc</p>
-                        <a href="#seccion-saludos" class="btn btn-warning w-100 mt-2">Comprar Saludo</a>
+    <main>
+        <header class="page-hero" style="--page-hero-image: url('/src/assets/img/home/custom.jpeg');">
+            <div class="container page-hero-content">
+                <span class="label-pill">Servicios premium</span>
+                <h1>Regalos deportivos listos para impactar.</h1>
+                <p>Gestionamos saludos, firmas, cotizaciones y envios con una experiencia clara para compradores y coleccionistas.</p>
+            </div>
+        </header>
+
+        <section class="page-shell soft-bg">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <article class="service-card">
+                            <img src="/src/assets/img/servicios/saludos.png" alt="Saludos personalizados">
+                            <div class="service-card-body">
+                                <span class="section-kicker">Personalizado</span>
+                                <h3>Comprar saludos</h3>
+                                <p class="flex-grow-1">Video para cumpleanos, sorpresas y ocasiones especiales.</p>
+                                <a href="#seccion-saludos" class="btn btn-accent">Comprar saludo</a>
+                            </div>
+                        </article>
                     </div>
-                </div>
-
-                <div class="card p-3 shadow-sm border-0" style="min-width: 280px;">
-                    <img src="/src/assets/img/servicios/firma.png" class="card-img-top rounded mb-3" alt="Firma de jersey">
-                    <div class="card-body d-flex flex-column p-0">
-                        <h5 class="card-title fw-bold">Cotizar firma de Jersey</h5>
-                        <p class="card-text text-muted flex-grow-1 small">Adquiere el jersey firmado de tu equipo favorito</p>
-                        <a href="#seccion-firmas" class="btn btn-warning w-100 mt-2">Cotizar Firma</a>
+                    <div class="col-md-4">
+                        <article class="service-card">
+                            <img src="/src/assets/img/servicios/firma.png" alt="Firma de jersey">
+                            <div class="service-card-body">
+                                <span class="section-kicker">Autenticidad</span>
+                                <h3>Cotizar firma</h3>
+                                <p class="flex-grow-1">Solicita un jersey firmado o envia tu pieza para cotizacion.</p>
+                                <a href="#seccion-firmas" class="btn btn-accent">Cotizar firma</a>
+                            </div>
+                        </article>
                     </div>
-                </div>
-
-                <div class="card p-3 shadow-sm border-0" style="min-width: 280px;">
-                    <img src="/src/assets/img/servicios/envios.png" class="card-img-top rounded mb-3" alt="Envíos">
-                    <div class="card-body d-flex flex-column p-0">
-                        <h5 class="card-title fw-bold">Envíos</h5>
-                        <p class="card-text text-muted flex-grow-1 small">Contamos con envíos internacionales y nacionales</p>
-                        <a href="#seccion-envios" class="btn btn-warning w-100 mt-2">Verificar Envío</a>
+                    <div class="col-md-4">
+                        <article class="service-card">
+                            <img src="/src/assets/img/servicios/envios.png" alt="Envios nacionales e internacionales">
+                            <div class="service-card-body">
+                                <span class="section-kicker">Logistica</span>
+                                <h3>Envios</h3>
+                                <p class="flex-grow-1">Cobertura nacional e internacional con empaque protector.</p>
+                                <a href="#seccion-envios" class="btn btn-accent">Verificar envio</a>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <hr class="my-5 opacity-25">
-            <div id="seccion-saludos" class="row g-4 py-5 align-items-center">
-                <div class="col-md-6">
-                    <h3 class="fw-bold mb-3">📹 Saludo Personalizado </h3>
-                    <p>¡Compra un saludo para esa persona especial!</p>
-                    <ul>
-                        <li>100% garantizado</li>
-                        <li>Entrega en un máximo de 20 días hábiles</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <div class="card p-4 bg-white border-0 shadow-sm">
-                        <h5 class="mb-3 fw-bold">Detalles del Saludo</h5>
-                        <form id="formSaludo" onsubmit="event.preventDefault();">
-                            <div class="mb-3">
-                                <label class="form-label fw-semibold">Selecciona al famoso</label>
-                                <select class="form-select" id="selectFamoso" required>
-                                    <option selected disabled value="">Selecciona un famoso...</option>
-                                    <option value="Famoso 1">Famoso</option>
-                                    <option value="Famoso 2">Famoso</option>
-                                    <option value="Famoso 3">Famoso</option>
-                                    <option value="Famoso 4">Famoso</option>
-                                    <option value="Famoso 5">Famoso</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">¿Para quién es el saludo?</label>
-                                <input type="text" class="form-control" placeholder="Ej: mi mejor amigo, mi papá...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">¿Quién envía el saludo?</label>
-                                <input type="text" class="form-control" placeholder="Tu nombre o quien regala el saludo">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Motivo del vídeo</label>
-                                <select class="form-select">
-                                    <option selected disabled>Selecciona una opción</option>
-                                    <option>Ocasión especial</option>
-                                    <option>Cumpleaños</option>
-                                    <option>Sorpresa</option>
-                                    <option>Otro</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Instrucciones para el saludo</label>
-                                <textarea class="form-control" rows="3" placeholder="Describe que quieres que diga en el vídeo..."></textarea>
-                            </div>
-                            <button type="button" class="btn btn-warning w-100" data-bs-toggle="modal" data-bs-target="#modalConfirmacion">
-                                Agregar al Carrito
-                            </button>
-                        </form>
+        <section class="page-shell" id="seccion-saludos">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-5">
+                        <span class="label-pill label-light">Saludo personalizado</span>
+                        <h2 class="section-title mt-3">Compra un mensaje para alguien especial.</h2>
+                        <p class="text-secondary fs-5">Entrega estimada en un maximo de 20 dias habiles, con confirmacion de solicitud.</p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="form-card">
+                            <h5 class="mb-3">Detalles del saludo</h5>
+                            <form onsubmit="event.preventDefault();">
+                                <div class="mb-3">
+                                    <label class="form-label fw-semibold">Selecciona al famoso</label>
+                                    <select class="form-select" required>
+                                        <option selected disabled value="">Selecciona una opcion...</option>
+                                        <option>Famoso 1</option>
+                                        <option>Famoso 2</option>
+                                        <option>Famoso 3</option>
+                                    </select>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Para quien es</label>
+                                        <input type="text" class="form-control" placeholder="Ej. mi mejor amigo">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Quien lo envia</label>
+                                        <input type="text" class="form-control" placeholder="Tu nombre">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Instrucciones</label>
+                                    <textarea class="form-control" rows="3" placeholder="Describe que quieres que diga"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-accent w-100" data-bs-toggle="modal" data-bs-target="#modalConfirmacion">Agregar al carrito</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-            <hr class="my-4 opacity-25">
+        </section>
 
-            <div id="seccion-firmas" class="row g-4 py-5 align-items-center flex-md-row-reverse">
-                <div class="col-md-6">
-                    <h3 class="fw-bold mb-3">🖋️ Cotiza tu Firma de Jersey</h3>
-                    <p>¿Quieres un jersey firmado? o ¿tienes un jersey y quieres qué sea firmado?</p>
-                    <p class="text-muted text-sm">Llena el siguiente formulario y se te enviara la cotización a tu correo electrónico</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="card p-4 bg-white border-0 shadow-sm">
-                        <h5 class="mb-3 fw-bold">Formulario de Cotización</h5>
-                        <form onsubmit="event.preventDefault();">
-                            <div class="mb-3">
-                                <label class="form-label">¿Ya tienes el jersey?</label>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="jerseyRadio" id="siJersey" checked>
-                                    <label class="form-check-label" for="siJersey">Sí, yo lo enviaré por paquetería</label>
+        <section class="page-shell soft-bg" id="seccion-firmas">
+            <div class="container">
+                <div class="row g-4 align-items-center flex-lg-row-reverse">
+                    <div class="col-lg-5">
+                        <span class="label-pill label-light">Firma de jersey</span>
+                        <h2 class="section-title mt-3">Cotiza una pieza firmada.</h2>
+                        <p class="text-secondary fs-5">Dinos si ya tienes el jersey, el jugador que buscas y si quieres marco de exhibicion.</p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="form-card">
+                            <h5 class="mb-3">Formulario de cotizacion</h5>
+                            <form onsubmit="event.preventDefault();">
+                                <div class="mb-3">
+                                    <label class="form-label">Ya tienes el jersey?</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="jerseyRadio" id="siJersey" checked>
+                                        <label class="form-check-label" for="siJersey">Si, yo lo enviare por paqueteria</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="jerseyRadio" id="noJersey">
+                                        <label class="form-check-label" for="noJersey">No, quiero uno</label>
+                                    </div>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="jerseyRadio" id="noJersey">
-                                    <label class="form-check-label" for="noJersey">No, quiero uno</label>
+                                <div class="mb-3">
+                                    <label class="form-label">Jugador</label>
+                                    <input type="text" class="form-control" placeholder="Ej. Ronaldinho, Messi, CR7">
                                 </div>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Jugador del jersey que quiero</label>
-                                <input type="text" class="form-control" placeholder="Ej. Ronaldinho, Messi, CR7...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">¿Deseas marco de exhibición?</label>
-                                <select class="form-select">
-                                    <option>No, solo quiero la firma</option>
-                                    <option>Sí, con marco premium</option>
-                                    <option>Sí, con marco premium y luces LED</option>
-                                </select>
-                            </div>
-                            <button type="button" class="btn btn-warning w-100" data-bs-toggle="modal" data-bs-target="#modalCotizacion">
-                                Solicitar Cotización
-                            </button>
-                        </form>
+                                <div class="mb-3">
+                                    <label class="form-label">Marco de exhibicion</label>
+                                    <select class="form-select">
+                                        <option>No, solo quiero la firma</option>
+                                        <option>Si, con marco premium</option>
+                                        <option>Si, con marco premium y luces LED</option>
+                                    </select>
+                                </div>
+                                <button type="button" class="btn btn-accent w-100" data-bs-toggle="modal" data-bs-target="#modalCotizacion">Solicitar cotizacion</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-            <hr class="my-4 opacity-25">
+        </section>
 
-            <div id="seccion-envios" class="row g-4 py-5 align-items-center">
-                <div class="col-md-6">
-                    <h3 class="fw-bold mb-3">📦 Envíos 📦</h3>
-                    <p>Trabajamos con DHL, FedEx y Estafeta para garantizar que tus artículos llegen completos y en buen estado</p>
-                    <p class="text-muted text-sm">Ofrecemos seguro de envío contra pérdidas y daños durante el envío</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="card p-4 bg-white border-0 shadow-sm">
-                        <h5 class="mb-3 fw-bold">Calculadora para el envío (aproximadamente)</h5>
-                        <form onsubmit="event.preventDefault();">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label class="form-label">Remitente: CP</label>
-                                    <input type="text" class="form-control" placeholder="Ej. 06000">
+        <section class="page-shell" id="seccion-envios">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-5">
+                        <span class="label-pill label-light">Envios</span>
+                        <h2 class="section-title mt-3">Calcula tu envio.</h2>
+                        <p class="text-secondary fs-5">Trabajamos con paqueterias nacionales e internacionales y ofrecemos seguro contra perdida o dano.</p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="form-card">
+                            <h5 class="mb-3">Calculadora aproximada</h5>
+                            <form onsubmit="event.preventDefault();">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Remitente: CP</label>
+                                        <input type="text" class="form-control" placeholder="Ej. 06000">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Destinatario: CP</label>
+                                        <input type="text" class="form-control" placeholder="Ej. 64000">
+                                    </div>
                                 </div>
-                                <div class="col-md-6 mb-3">
-                                    <label class="form-label">Destinatario: CP</label>
-                                    <input type="text" class="form-control" placeholder="Ej. 64000">
+                                <div class="mb-3">
+                                    <label class="form-label">Tipo de articulo</label>
+                                    <select class="form-select">
+                                        <option>Balon</option>
+                                        <option>Jersey</option>
+                                        <option>Accesorios</option>
+                                    </select>
                                 </div>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Tipo de Artículo</label>
-                                <select class="form-select">
-                                    <option>Balon</option>
-                                    <option>Jersey</option>
-                                    <option>Accesorios</option>
-                                </select>
-                            </div>
-                            <button type="button" class="btn btn-warning w-100 text-dark" data-bs-toggle="modal" data-bs-target="#modalEnvios"> Calcular costo aprox</button>
-                        </form>
+                                <button type="button" class="btn btn-accent w-100" data-bs-toggle="modal" data-bs-target="#modalEnvios">Calcular costo aprox.</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <div class="modal fade" id="modalConfirmacion" tabindex="-1" aria-labelledby="modalConfirmacionLabel" aria-hidden="true">
+    <footer class="site-footer" id="contacto">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                    <h2 class="mb-2">Gift for Fifas</h2>
+                    <p class="mb-0 text-white-soft">Jerseys retro, articulos deportivos y memorabilia firmada.</p>
+                </div>
+                <div class="col-lg-5">
+                    <form class="row g-2">
+                        <div class="col-sm-8">
+                            <input type="email" class="form-control form-control-lg" placeholder="tu@email.com">
+                        </div>
+                        <div class="col-sm-4">
+                            <button class="btn btn-accent btn-lg w-100" type="submit">Avisarme</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="modalConfirmacion" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title fw-bold" id="modalConfirmacionLabel">Excelentee!! 🥳</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Solicitud guardada</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center">
-                    <p class="fs-5">Tu solicitud de saludo a sido guardada correctamente</p>
+                    <p class="fs-5 mb-0">Tu solicitud de saludo fue guardada correctamente.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="modalCotizacion" tabindex="-1" aria-labelledby="modalCotizacionLabel" aria-hidden="true">
+    <div class="modal fade" id="modalCotizacion" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title fw-bold" id="modalCotizacionLabel">Solicitud Recibida📄🖋️</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Solicitud recibida</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center">
-                    <p class="fs-5">Tu solicitud fue recibida y se enviará a tu correo electrónico</p>
+                    <p class="fs-5 mb-0">Tu solicitud fue recibida y se enviara a tu correo electronico.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="modalEnvios" tabindex="-1" aria-labelledby="modalEnviosLabel" aria-hidden="true">
+    <div class="modal fade" id="modalEnvios" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title fw-bold" id="modalEnviosLabel">Costo aproximado del envío 🤑</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Costo aproximado</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center">
-                    <p class="fs-5">El costo de envío es de...</p>
+                    <p class="fs-5 mb-0">El costo de envio se calculara con la paqueteria disponible.</p>
                 </div>
             </div>
         </div>
     </div>
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="store.js"></script>
 </body>
+
 </html>
