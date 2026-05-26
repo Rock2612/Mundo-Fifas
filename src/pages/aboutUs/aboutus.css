@@ -37,7 +37,7 @@ h1 {
 .introduction {
 color: var(--color-text-muted);
 font-size: 1.15rem;
-line height: 1.7;
+line-height: 1.7;
 max-width: 750px;
 margin: 0 auto;
 text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
