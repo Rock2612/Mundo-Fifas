@@ -5,7 +5,7 @@
       "nombre": "Jersey Brasil 2002",
       "descripcion": "Edicion retro de la seleccion campeona del mundo.",
       "precio": 2490,
-      "img": "",
+      "img": "assets/img/firmados/bz006.webp",
       "badge": "Retro",
       "badgeColor": "warning"
     },
@@ -14,7 +14,7 @@
       "nombre": "Jersey Mexico Francia 98",
       "descripcion": "Clasico jersey verde con diseño azteca.",
       "precio": 2890,
-      "img": "",
+      "img": "assets/img/firmados/fr98.webp",
       "badge": "Retro",
       "badgeColor": "dark"
     },
@@ -23,7 +23,7 @@
       "nombre": "Jersey Milan 2007",
       "descripcion": "Temporada historica de Champions League.",
       "precio": 3190,
-      "img": "",
+      "img": "assets/img/firmados/milan2007.webp",
       "badge": "Retro",
       "badgeColor": "danger"
     },
@@ -32,7 +32,7 @@
       "nombre": "Jersey Argentina 1986",
       "descripcion": "Inspirado en el mundial de Maradona.",
       "precio": 2990,
-      "img": "",
+      "img": "assets/img/firmados/arg86.jpg",
       "badge": "Retro",
       "badgeColor": "primary"
     },
@@ -41,7 +41,7 @@
       "nombre": "Jersey Manchester United 1999",
       "descripcion": "Triplete historico.",
       "precio": 3390,
-      "img": "",
+      "img": "assets/img/firmados/united99.webp",
       "badge": "Retro",
       "badgeColor": "danger"
     },
@@ -50,7 +50,7 @@
       "nombre": "Jersey Real Madrid 2002",
       "descripcion": "Era galactica con Zidane.",
       "precio": 3490,
-      "img": "",
+      "img": "assets/img/firmados/mad02.jpg",
       "badge": "Retro",
       "badgeColor": "light"
     },
@@ -59,7 +59,7 @@
       "nombre": "Jersey Barcelona 2009",
       "descripcion": "Temporada del sextete.",
       "precio": 3590,
-      "img": "",
+      "img": "assets/img/firmados/bar09.webp",
       "badge": "Retro",
       "badgeColor": "primary"
     },
@@ -68,7 +68,7 @@
       "nombre": "Jersey Alemania 1990",
       "descripcion": "Campeones del mundo.",
       "precio": 2890,
-      "img": "",
+      "img": "assets/img/firmados/ale90.webp",
       "badge": "Retro",
       "badgeColor": "dark"
     },
@@ -77,7 +77,7 @@
       "nombre": "Jersey Juventus 1996",
       "descripcion": "Clasico europeo.",
       "precio": 2790,
-      "img": "",
+      "img": "assets/img/firmados/juv96.webp",
       "badge": "Retro",
       "badgeColor": "secondary"
     },
