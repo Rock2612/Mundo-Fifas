@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Gift For Fifas | Mundial 2026</title>
+
+    <!-- BOOTSTRAP -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- GOOGLE FONTS -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+
+    <link
+      rel="stylesheet"
+      href="../../pages/ArticulosDeportivos/artdeportivos.css"
+    />
+  </head>
+
+  <body>
+    <!-- ========================= -->
+    <!-- NAVBAR -->
+    <!-- ========================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+      <div class="container">
+        <!-- LOGO -->
+
+        <a class="navbar-brand fw-bold logo-text" href="#"> Gift For Fifas </a>
+
+        <!-- BOTON MOBILE -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuPrincipal"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="../../index.html"> Inicio </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#productos"> Productos </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto"> Contacto </a>
+            </li>
+          </ul>
+
+          <!-- BOTONES -->
+
+          <div class="d-flex gap-3 align-items-center">
+            <!-- BUSCAR -->
+
+            <button class="btn search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <!-- CARRITO -->
+
+            <button
+              class="btn cart-btn position-relative"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#carritoCanvas"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+
+              <span
+                id="contador-carrito"
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                0
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
+
+    <header id="inicio">
+      <div
+        id="carouselHero"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- SLIDE 1 -->
+
+          <div class="carousel-item active">
+            <img
+              src="../../assets/img/img articulos deportivos/a.jpg"
+              class="d-block w-100 hero-img"
+              alt="Mundial 2026"
+            />
+
+            <div class="overlay"></div>
+
+            <div class="carousel-caption">
+              <span class="hero-tag"> FIFA WORLD CUP 2026 </span>
+
+              <h1>Vive la pasión del fútbol</h1>
+
+              <p>
+                Descubre productos oficiales del Mundial 2026 con estilo
+                premium.
+              </p>
+
+              <button class="btn hero-btn">Comprar ahora</button>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 -->
+
+          <div class="carousel-item">
+            <img
+              src="../../assets/img/img articulos deportivos/balonesmundial.JPG"
+              class="d-block w-100 hero-img"
+              alt="Balones Oficiales"
+            />
+
+            <div class="overlay"></div>
+
+            <div class="carousel-caption">
+              <span class="hero-tag"> EDICIÓN OFICIAL </span>
+
+              <h1>Balones Oficiales</h1>
+
+              <p>Diseñados para verdaderos aficionados.</p>
+
+              <button class="btn hero-btn">Ver colección</button>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 -->
+
+          <div class="carousel-item">
+            <img
+              src="../../assets/img/img articulos deportivos/equipamiento.jpg"
+              class="d-block w-100 hero-img"
+              alt="Equipamiento"
+            />
+
+            <div class="overlay"></div>
+
+            <div class="carousel-caption">
+              <span class="hero-tag"> EQUIPAMIENTO PRO </span>
+
+              <h1>Juega como un campeón</h1>
+
+              <p>Equipamiento profesional para tu mejor rendimiento.</p>
+
+              <button class="btn hero-btn">Explorar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTROLES -->
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselHero"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselHero"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ========================= -->
+    <!-- FILTROS -->
+    <!-- ========================= -->
+
+    <section class="filters-section">
+      <div class="container">
+        <div class="filters">
+          <button class="active" data-filter="all">Todos</button>
+
+          <button data-filter="balones">Balones</button>
+
+          <button data-filter="ropa">Ropa</button>
+
+          <button data-filter="equipamiento">Equipamiento</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- PRODUCTOS -->
+    <!-- ========================= -->
+
+    <section class="productos-section" id="productos">
+      <div class="container">
+        <!-- TITULO -->
+
+        <div class="section-title text-center">
+          <span> TIENDA OFICIAL </span>
+
+          <h2>Productos Destacados</h2>
+
+          <p>Compra artículos exclusivos del Mundial FIFA 2026</p>
+        </div>
+
+        <!-- CONTENEDOR DINAMICO -->
+
+        <div class="row g-4 products-grid" id="contenedor-productos">
+          <!-- LAS CARDS SE RENDERIZAN CON JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- CARRITO -->
+    <!-- ========================= -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="carritoCanvas">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">🛒 Carrito de Compras</h5>
+
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul id="lista-carrito" class="list-group mb-4"></ul>
+
+        <div class="cart-total">
+          <h4>
+            Total: $<span id="total">0</span>
+            MXN
+          </h4>
+        </div>
+
+        <button class="btn checkout-btn w-100 mt-3">Finalizar Compra</button>
+      </div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer class="footer" id="contacto">
+      <div class="container">
+        <h2>Gift For Fifas</h2>
+
+        <p>Vive la pasión del Mundial FIFA 2026</p>
+
+        <div class="social-icons">
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="copy">© 2026 Mundial FIFA | Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS -->
+
+    <script src="../../pages/ArticulosDeportivos/artdeportivos.js"></script>
+  </body>
+</html>
