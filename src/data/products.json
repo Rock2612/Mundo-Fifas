@@ -546,5 +546,97 @@
       "badge": "Firmado",
       "badgeColor": "primary"
     }
-  ]
+  ],
+"retros": [
+    {
+        "id": "1",
+        "nombre": "Argentina 2010",
+        "precio": "$1800 MXN",
+        "descripcion": "Revive la elegancia albiceleste con el jersey de visitante utilizado en el Mundial de Sudáfrica 2010. Con un diseño impecable en dos tonos de azul y detalles retro inspirados en los años 80, esta pieza quedó marcada en la historia por ser la primera Copa del Mundo donde Leo Messi portó la legendaria camiseta número 10. Un corte clásico para los verdaderos amantes del fútbol sudamericano.",
+        "imagen": "/src/assets/img/jerseys/argentina_retro.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Brasil 2002",
+        "precio": "$1700 MXN",
+        "descripcion": "El año del Pentacampeonato. Esta es la icónica camiseta de local que vistió la selección brasileña en el Mundial de Corea-Japón 2002, donde el Scratch du Oro dominó el planeta de la mano de Ronaldo, Ronaldinho y Rivaldo. Un diseño vibrante con los clásicos vivos verdes en los hombros que respira la auténtica esencia del Jogo Bonito. Una joya obligatoria para cualquier coleccionista.",
+        "imagen": "/src/assets/img/jerseys/brasil_retro.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "Mexico 1998",
+        "precio": "$1900 MXN",
+        "descripcion": "Una obra de arte hecha jersey. La legendaria camiseta utilizada por la Selección Mexicana en el Mundial de Francia 1998, famosa a nivel mundial por el imponente Calendario Azteca difuminado sobre el clásico color verde. Recordada por las grandes hazañas de Luis Hernández y Cuauhtémoc Blanco, es considerada por expertos internacionales como una de las playeras más hermosas e icónicas en la historia del fútbol.",
+        "imagen": "/src/assets/img/jerseys/mexico_retro.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "Francia 2006",
+        "precio": "$1900 MXN",
+        "descripcion": "Historia pura del fútbol europeo. El elegante jersey de visitante blanco con el degradado azul y rojo en el pecho, utilizado por la selección francesa en el Mundial de Alemania 2006. Esta camiseta inmortalizó la magistral e inolvidable última campaña de Zinedine Zidane antes de su retiro. Un diseño sobrio, estético y cargado de nostalgia que luce perfecto tanto en la cancha como en la calle.",
+        "imagen": "/src/assets/img/jerseys/francia_retro.jpg"
+    }
+],
+
+"actuales": [
+    {
+        "id": "a1",
+        "nombre": "México 2026",
+        "precio": "$2200 MXN",
+        "descripcion": "Nuevo jersey de México edición 2026...",
+        "imagen": "/src/assets/img/jerseys/mexico_2026.jpg"
+    },
+    {
+        "id": "a2",
+        "nombre": "Francia 2026",
+        "precio": "$2100 MXN",
+        "descripcion": "Diseño moderno de Francia...",
+        "imagen": "/src/assets/img/jerseys/francia_2026.jpg"
+    },
+    {
+        "id": "a3",
+        "nombre": "Inglaterra 2026",
+        "precio": "$2300 MXN",
+        "descripcion": "Jersey elegante de Inglaterra...",
+        "imagen": "/src/assets/img/jerseys/inglaterra_2026.png"
+    },
+    {
+        "id": "a4",
+        "nombre": "Bélgica 2026",
+        "precio": "$2300 MXN",
+        "descripcion": "Jersey de Bélgica edición 2026...",
+        "imagen": "/src/assets/img/jerseys/belgica_2026.jpg"
+    }
+],
+
+"firmado": [
+    {
+        "id": "f1",
+        "nombre": "Messi Argentina Firmado",
+        "precio": "$8500 MXN",
+        "descripcion": "Jersey firmado por Messi con certificado de autenticidad.",
+        "imagen": "/src/assets/img/jerseys/messi.jpg"
+    },
+    {
+        "id": "f2",
+        "nombre": "Cristiano Ronaldo Firmado",
+        "precio": "$9000 MXN",
+        "descripcion": "Camiseta firmada por Cristiano Ronaldo con certificado de autenticidad.",
+        "imagen": "/src/assets/img/jerseys/CR7.jpeg"
+    },
+    {
+        "id": "f3",
+        "nombre": "Neymar Brasil Firmado",
+        "precio": "$7800 MXN",
+        "descripcion": "Jersey de Brasil firmado por Neymar Jr con certificado de autenticidad.",
+        "imagen": "/src/assets/img/jerseys/neymar.jpg"
+    },
+    {
+        "id": "f4",
+        "nombre": "Zidane Francia Firmado",
+        "precio": "$9500 MXN",
+        "descripcion": "Jersey firmado por Zinedine Zidane con certificado de autenticidad.",
+        "imagen": "/src/assets/img/jerseys/zidane.jpg"
+    }
+]
 }
