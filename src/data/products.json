@@ -1,0 +1,550 @@
+{
+  "retro": [
+    {
+      "id": 1,
+      "nombre": "Jersey Brasil 2002",
+      "descripcion": "Edicion retro de la seleccion campeona del mundo.",
+      "precio": 2490,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "warning"
+    },
+    {
+      "id": 2,
+      "nombre": "Jersey Mexico Francia 98",
+      "descripcion": "Clasico jersey verde con diseño azteca.",
+      "precio": 2890,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "dark"
+    },
+    {
+      "id": 3,
+      "nombre": "Jersey Milan 2007",
+      "descripcion": "Temporada historica de Champions League.",
+      "precio": 3190,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 4,
+      "nombre": "Jersey Argentina 1986",
+      "descripcion": "Inspirado en el mundial de Maradona.",
+      "precio": 2990,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 5,
+      "nombre": "Jersey Manchester United 1999",
+      "descripcion": "Triplete historico.",
+      "precio": 3390,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 6,
+      "nombre": "Jersey Real Madrid 2002",
+      "descripcion": "Era galactica con Zidane.",
+      "precio": 3490,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "light"
+    },
+    {
+      "id": 7,
+      "nombre": "Jersey Barcelona 2009",
+      "descripcion": "Temporada del sextete.",
+      "precio": 3590,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 8,
+      "nombre": "Jersey Alemania 1990",
+      "descripcion": "Campeones del mundo.",
+      "precio": 2890,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "dark"
+    },
+    {
+      "id": 9,
+      "nombre": "Jersey Juventus 1996",
+      "descripcion": "Clasico europeo.",
+      "precio": 2790,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "secondary"
+    },
+    {
+      "id": 10,
+      "nombre": "Jersey Holanda 1988",
+      "descripcion": "Diseño iconico naranja.",
+      "precio": 2990,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "warning"
+    },
+    {
+      "id": 11,
+      "nombre": "Jersey Arsenal 2004",
+      "descripcion": "Temporada invicta.",
+      "precio": 3290,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 12,
+      "nombre": "Jersey Inter 2010",
+      "descripcion": "Triplete italiano.",
+      "precio": 3390,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 13,
+      "nombre": "Jersey Chelsea 2012",
+      "descripcion": "Primera Champions.",
+      "precio": 3190,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 14,
+      "nombre": "Jersey Liverpool 2005",
+      "descripcion": "Final de Estambul.",
+      "precio": 3490,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 15,
+      "nombre": "Jersey PSG 1994",
+      "descripcion": "Clasico parisino.",
+      "precio": 2590,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 16,
+      "nombre": "Jersey Atletico Madrid 1996",
+      "descripcion": "Doblete español.",
+      "precio": 2790,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 17,
+      "nombre": "Jersey Dortmund 1997",
+      "descripcion": "Campeon europeo.",
+      "precio": 2990,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "warning"
+    },
+    {
+      "id": 18,
+      "nombre": "Jersey AC Milan 1994",
+      "descripcion": "Equipo legendario.",
+      "precio": 3690,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 19,
+      "nombre": "Jersey Francia 1998",
+      "descripcion": "Campeones en casa.",
+      "precio": 3190,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 20,
+      "nombre": "Jersey Inglaterra 1990",
+      "descripcion": "Clasico mundialista.",
+      "precio": 2890,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "light"
+    }
+  ],
+
+  "firmados": [
+    {
+      "id": 21,
+      "nombre": "Jersey firmado Messi",
+      "descripcion": "Autografiado con certificado.",
+      "precio": 18990,
+      "img": "assets/img/firmados/messi.webp",
+      "badge": "Firmado",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 22,
+      "nombre": "Jersey firmado Cristiano R.",
+      "descripcion": "Edicion limitada.",
+      "precio": 17990,
+      "img": "assets/img/firmados/ronaldo.jpg",
+      "badge": "Firmado",
+      "badgeColor": "dark"
+    },
+    {
+      "id": 23,
+      "nombre": "Jersey firmado Neymar Jr",
+      "descripcion": "Con folio internacional.",
+      "precio": 12990,
+      "img": "assets/img/firmados/ney.webp",
+      "badge": "Firmado",
+      "badgeColor": "warning"
+    },
+    {
+      "id": 24,
+      "nombre": "Jersey firmado Ronaldinho",
+      "descripcion": "Edicion premium.",
+      "precio": 14990,
+      "img": "assets/img/firmados/ronaldinho.avif",
+      "badge": "Firmado",
+      "badgeColor": "dark"
+    },
+    {
+      "id": 25,
+      "nombre": "Jersey firmado Zidane",
+      "descripcion": "Coleccion mundialista.",
+      "precio": 16990,
+      "img": "assets/img/firmados/zidane.jpg",
+      "badge": "Firmado",
+      "badgeColor": "secondary"
+    },
+    {
+      "id": 26,
+      "nombre": "Jersey firmado Mbappe",
+      "descripcion": "Temporada especial PSG.",
+      "precio": 11990,
+      "img": "assets/img/firmados/mbappe.jpg",
+      "badge": "Firmado",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 27,
+      "nombre": "Jersey firmado Modric",
+      "descripcion": "Autografo autenticado.",
+      "precio": 9990,
+      "img": "assets/img/firmados/modric.jpg",
+      "badge": "Firmado",
+      "badgeColor": "light"
+    },
+    {
+      "id": 28,
+      "nombre": "Jersey firmado Maldini",
+      "descripcion": "Leyenda del Milan.",
+      "precio": 17990,
+      "img": "assets/img/firmados/maldini.webp",
+      "badge": "Firmado",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 29,
+      "nombre": "Jersey firmado T. Henry",
+      "descripcion": "Edicion Arsenal.",
+      "precio": 13990,
+      "img": "assets/img/firmados/henry.webp",
+      "badge": "Firmado",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 30,
+      "nombre": "Jersey firmado Pirlo",
+      "descripcion": "Pieza exclusiva italiana.",
+      "precio": 10990,
+      "img": "assets/img/firmados/pirlo.jpg",
+      "badge": "Firmado",
+      "badgeColor": "secondary"
+    },
+    {
+      "id": 31,
+      "nombre": "Jersey firmado Ramos",
+      "descripcion": "Capitan historico.",
+      "precio": 11990,
+      "img": "assets/img/firmados/ramos.jpg",
+      "badge": "Firmado",
+      "badgeColor": "light"
+    },
+    {
+      "id": 32,
+      "nombre": "Jersey firmado Kaká",
+      "descripcion": "Balon de Oro.",
+      "precio": 14990,
+      "img": "assets/img/firmados/kaka.jpg",
+      "badge": "Firmado",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 33,
+      "nombre": "Jersey firmado Iniesta",
+      "descripcion": "Gol mundialista.",
+      "precio": 15990,
+      "img": "assets/img/firmados/iniesta.jpg",
+      "badge": "Firmado",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 34,
+      "nombre": "Jersey firmado Xavi",
+      "descripcion": "Maestro del mediocampo.",
+      "precio": 13990,
+      "img": "assets/img/firmados/xavi.jpg",
+      "badge": "Firmado",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 35,
+      "nombre": "Jersey firmado Buffon",
+      "descripcion": "Leyenda italiana.",
+      "precio": 12990,
+      "img": "assets/img/firmados/buffonJ.jpg",
+      "badge": "Firmado",
+      "badgeColor": "secondary"
+    },
+    {
+      "id": 36,
+      "nombre": "Jersey firmado Rooney",
+      "descripcion": "Coleccion United.",
+      "precio": 11990,
+      "img": "assets/img/firmados/rooney.jpg",
+      "badge": "Firmado",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 37,
+      "nombre": "Jersey firmado Drogba",
+      "descripcion": "Icono del Chelsea.",
+      "precio": 10990,
+      "img": "assets/img/firmados/drogba.jpg",
+      "badge": "Firmado",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 38,
+      "nombre": "Jersey firmado Gerrard",
+      "descripcion": "Capitan legendario.",
+      "precio": 12990,
+      "img": "assets/img/firmados/gerrard.jpg",
+      "badge": "Firmado",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 39,
+      "nombre": "Jersey firmado Del Piero",
+      "descripcion": "Edicion Juventus.",
+      "precio": 13990,
+      "img": "assets/img/firmados/delpiero.webp",
+      "badge": "Firmado",
+      "badgeColor": "secondary"
+    },
+    {
+      "id": 40,
+      "nombre": "Jersey firmado Beckham",
+      "descripcion": "Coleccion inglesa.",
+      "precio": 16990,
+      "img": "assets/img/firmados/beckham.jpg",
+      "badge": "Firmado",
+      "badgeColor": "light"
+    }
+  ],
+
+  "articulos": [
+    {
+      "id": 41,
+      "nombre": "Balon Champions League",
+      "descripcion": "Balon oficial UEFA.",
+      "precio": 2490,
+      "img": "",
+      "badge": "Nuevo",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 42,
+      "nombre": "Guantes firmados Buffon",
+      "descripcion": "Par profesional autenticado.",
+      "precio": 8990,
+      "img": "",
+      "badge": "Limitado",
+      "badgeColor": "warning"
+    },
+    {
+      "id": 43,
+      "nombre": "Casco NFL firmado Brady",
+      "descripcion": "Helmet de coleccion NFL.",
+      "precio": 22990,
+      "img": "",
+      "badge": "Firmado",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 44,
+      "nombre": "Balon NBA firmado Kobe Bryant",
+      "descripcion": "Balon Spalding oficial.",
+      "precio": 29990,
+      "img": "",
+      "badge": "Legend",
+      "badgeColor": "dark"
+    },
+    {
+      "id": 45,
+      "nombre": "Bat firmado Derek Jeter",
+      "descripcion": "Edicion MLB.",
+      "precio": 15990,
+      "img": "",
+      "badge": "MLB",
+      "badgeColor": "secondary"
+    },
+    {
+      "id": 46,
+      "nombre": "Espinilleras Nike Mercurial",
+      "descripcion": "Proteccion profesional.",
+      "precio": 890,
+      "img": "",
+      "badge": "Training",
+      "badgeColor": "dark"
+    },
+    {
+      "id": 47,
+      "nombre": "Mochila Adidas Football",
+      "descripcion": "Impermeable deportiva.",
+      "precio": 1290,
+      "img": "",
+      "badge": "Nuevo",
+      "badgeColor": "secondary"
+    },
+    {
+      "id": 48,
+      "nombre": "Conos de entrenamiento",
+      "descripcion": "Set profesional.",
+      "precio": 590,
+      "img": "",
+      "badge": "Training",
+      "badgeColor": "success"
+    },
+    {
+      "id": 49,
+      "nombre": "Balon Puma La Liga",
+      "descripcion": "Edicion oficial.",
+      "precio": 1890,
+      "img": "",
+      "badge": "Nuevo",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 50,
+      "nombre": "Guantes Elite Goalkeeper",
+      "descripcion": "Grip profesional.",
+      "precio": 2490,
+      "img": "",
+      "badge": "Pro",
+      "badgeColor": "warning"
+    },
+    {
+      "id": 51,
+      "nombre": "Cronometro digital",
+      "descripcion": "Ideal para entrenamiento.",
+      "precio": 690,
+      "img": "",
+      "badge": "Training",
+      "badgeColor": "success"
+    },
+    {
+      "id": 52,
+      "nombre": "Cuerda de velocidad",
+      "descripcion": "Accesorio fitness.",
+      "precio": 490,
+      "img": "",
+      "badge": "Gym",
+      "badgeColor": "dark"
+    },
+    {
+      "id": 53,
+      "nombre": "Balon firmado Pelé",
+      "descripcion": "Pieza vintage.",
+      "precio": 24990,
+      "img": "",
+      "badge": "Coleccion",
+      "badgeColor": "dark"
+    },
+    {
+      "id": 54,
+      "nombre": "Casco firmado Mahomes",
+      "descripcion": "Coleccion NFL.",
+      "precio": 19990,
+      "img": "",
+      "badge": "Firmado",
+      "badgeColor": "danger"
+    },
+    {
+      "id": 55,
+      "nombre": "Balon firmado Magic Johnson",
+      "descripcion": "NBA memorabilia.",
+      "precio": 18990,
+      "img": "",
+      "badge": "Legend",
+      "badgeColor": "warning"
+    },
+    {
+      "id": 56,
+      "nombre": "Bandas elasticas",
+      "descripcion": "Set fitness deportivo.",
+      "precio": 790,
+      "img": "",
+      "badge": "Fitness",
+      "badgeColor": "success"
+    },
+    {
+      "id": 57,
+      "nombre": "Termo deportivo Nike",
+      "descripcion": "Botella termica premium.",
+      "precio": 690,
+      "img": "",
+      "badge": "Nuevo",
+      "badgeColor": "primary"
+    },
+    {
+      "id": 58,
+      "nombre": "Red de entrenamiento",
+      "descripcion": "Porteria plegable.",
+      "precio": 1490,
+      "img": "",
+      "badge": "Training",
+      "badgeColor": "success"
+    },
+    {
+      "id": 59,
+      "nombre": "Balon retro Adidas Tango",
+      "descripcion": "Diseño clasico.",
+      "precio": 2790,
+      "img": "",
+      "badge": "Retro",
+      "badgeColor": "light"
+    },
+    {
+      "id": 60,
+      "nombre": "Guantes firmados Casillas",
+      "descripcion": "Memorabilia española.",
+      "precio": 12990,
+      "img": "",
+      "badge": "Firmado",
+      "badgeColor": "primary"
+    }
+  ]
+}
