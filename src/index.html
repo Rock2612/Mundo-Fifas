@@ -32,7 +32,7 @@
                 </ul>
                 <div class="d-flex gap-2">
                     <button class="btn btn-outline-dark btn-sm">Buscar</button>
-                    <button class="btn btn-dark btn-sm">Carrito</button>
+                    <button class="btn btn-dark btn-sm js-cart-open" type="button">Carrito <span class="cart-count">0</span></button>
                 </div>
             </div>
         </div>
@@ -135,12 +135,14 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <article class="category-card">
-                            <img src="assets/img/home/memorabilia.jpg" class="category-image"
-                                alt="Memorabilia deportiva en exhibicion">
-                            <span>Memorabilia</span>
-                            <strong>Ediciones limitadas</strong>
-                        </article>
+                        <a href="/src/pages/edicionesLimitadas/ediciones.html">
+                            <article class="category-card">
+                                <img src="assets/img/home/memorabilia.jpg" class="category-image"
+                                    alt="Memorabilia deportiva en exhibicion">
+                                <span>Memorabilia</span>
+                                <strong>Ediciones limitadas</strong>
+                            </article>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -290,10 +292,11 @@
         </div>
     </footer>
 
-    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="/src/cart.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -1,116 +1,135 @@
-// ─── Genera cards y modals desde el JSON ───────────────────────────────────
-
+// Este archivo renderiza la pagina de tienda retro.
+// Lee el JSON unificado, filtra los productos de la coleccion "store" y crea cards y modales.
 document.addEventListener("DOMContentLoaded", () => {
-  loadProducts();
+  loadStoreProducts();
 });
 
-async function loadProducts() {
+// Carga los productos desde el JSON central del proyecto.
+async function loadStoreProducts() {
   try {
-   const res = await fetch("/src/pages/store/store.json");
-    if (!res.ok) throw new Error("No se pudo cargar retro.json");
+    const response = await fetch("/src/data/products.json");
 
-    const products = await res.json();
-
-    const grid   = document.getElementById("retro-grid");
-    const modals = document.getElementById("retro-modals");
-
-    if (!grid || !modals) {
-      console.error("No se encontraron #retro-grid o #retro-modals en el HTML");
-      return;
+    if (!response.ok) {
+      throw new Error("No se pudo cargar products.json");
     }
 
-    products.forEach(p => {
-      const modalId = `modal${p.id}`;
+    const data = await response.json();
+    const products = (data.products || []).filter((product) => product.collection === "store");
 
-      // ── CARD ────────────────────────────────────────────────────────────
-      const card = document.createElement("div");
-      card.className = "retro-card";
-      card.dataset.modal = modalId;
-      card.innerHTML = `
-        <div class="card-img-wrap">
-          <img src="${p.img}" alt="${p.name}">
-          <div class="card-year">${p.year}</div>
-        </div>
-        <div class="card-body-inner">
-          <div class="card-brand">${p.brand}</div>
-          <h2>${p.name}</h2>
-          <p class="desc">${p.desc}</p>
-          <div class="card-meta">
-            <span class="price">${p.price}</span>
-            <span class="reviews">${p.stars} <em>${p.reviews}</em></span>
-          </div>
-          <div class="card-buttons">
-            <button class="btn-ver"
-              data-bs-toggle="modal"
-              data-bs-target="#${modalId}">Ver más</button>
-            <button class="btn-cart add-cart"
-              data-name="${p.name}">+ Carrito</button>
-          </div>
-        </div>`;
-      grid.appendChild(card);
-
-      // ── MODAL ───────────────────────────────────────────────────────────
-      const detailsHTML = p.details
-        .map(d => `<li><span>${d.label}</span><strong>${d.value}</strong></li>`)
-        .join("");
-
-      const modal = document.createElement("div");
-      modal.className = "modal fade";
-      modal.id = modalId;
-      modal.tabIndex = -1;
-      modal.innerHTML = `
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <div>
-                <div class="modal-brand">${p.brand} · ${p.year}</div>
-                <h5 class="modal-title">${p.brand} ${p.name}</h5>
-              </div>
-              <button class="btn-close-custom" data-bs-dismiss="modal">✕</button>
-            </div>
-            <div class="modal-body">
-              <div class="modal-img-col">
-                <img src="${p.img}" class="modal-img" alt="${p.name}">
-              </div>
-              <div class="modal-info-col">
-                <p>${p.modalDesc}</p>
-                <ul class="retro-details">${detailsHTML}</ul>
-                <div class="modal-price-row">
-                  <span class="modal-price">${p.price}</span>
-                  <span class="modal-reviews">${p.stars} ${p.reviews} reseñas</span>
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button class="btn-modal-close" data-bs-dismiss="modal">Cerrar</button>
-              <button class="btn-modal-cart add-cart"
-                data-name="${p.name}"
-                data-bs-dismiss="modal">Agregar al carrito</button>
-            </div>
-          </div>
-        </div>`;
-      modals.appendChild(modal);
+    renderStoreProducts(products, {
+      gridId: "retro-grid",
+      modalsId: "retro-modals",
     });
-
-    initCart();
-
-  } catch (err) {
-    console.error("Error al cargar productos:", err);
+  } catch (error) {
+    console.error("Error al cargar productos:", error);
   }
 }
 
-// ─── Lógica del carrito ────────────────────────────────────────────────────
+// Pinta las cards dentro del grid y los modales dentro del contenedor de modales.
+function renderStoreProducts(products, options) {
+  const grid = document.getElementById(options.gridId);
+  const modals = document.getElementById(options.modalsId);
 
-// function initCart() {
-//   let cartCount = 0;
+  if (!grid || !modals) {
+    return;
+  }
 
-//   document.addEventListener("click", e => {
-//     if (!e.target.classList.contains("add-cart")) return;
-//     cartCount++;
-//     document.getElementById("cartNum").textContent = cartCount;
+  grid.innerHTML = products.map((product) => buildStoreCard(product)).join("");
+  modals.innerHTML = products.map((product) => buildStoreModal(product)).join("");
+  initCartAlert();
+}
 
-//     const alert = document.getElementById("cartAlert");
-//     alert.classList.add("show");
-//     setTimeout(() => alert.classList.remove("show"), 2500);
-//   });
-// }
+// Crea la card visual de la tienda.
+// Cada card tiene boton para ver el modal y boton para agregar al carrito global.
+function buildStoreCard(product) {
+  const modalId = getModalId(product.id);
+
+  return `
+    <article class="retro-card">
+      <div class="card-img-wrap">
+        <img src="${escapeHtml(product.img)}" alt="${escapeHtml(product.name)}">
+        <div class="card-year">${escapeHtml(product.year)}</div>
+      </div>
+      <div class="card-body-inner">
+        <div class="card-brand">${escapeHtml(product.brand)}</div>
+        <h2>${escapeHtml(product.name)}</h2>
+        <p class="desc">${escapeHtml(product.desc)}</p>
+        <div class="card-meta">
+          <span class="price">${escapeHtml(product.price)}</span>
+          <span class="reviews">${escapeHtml(product.stars)} <em>${escapeHtml(product.reviews)}</em></span>
+        </div>
+        <div class="card-buttons">
+          <button class="btn-ver" data-bs-toggle="modal" data-bs-target="#${modalId}">Ver mas</button>
+          <button class="btn-cart add-cart" data-product-id="${escapeHtml(product.id)}" data-name="${escapeHtml(product.name)}">+ Carrito</button>
+        </div>
+      </div>
+    </article>`;
+}
+
+// Crea el modal de detalle de un producto.
+// Este formato es el que se reutiliza en otras paginas del proyecto.
+function buildStoreModal(product) {
+  const modalId = getModalId(product.id);
+  const detailsHTML = (product.details || [])
+    .map((detail) => `<li><span>${escapeHtml(detail.label)}</span><strong>${escapeHtml(detail.value)}</strong></li>`)
+    .join("");
+
+  return `
+    <div class="modal fade" id="${modalId}" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content store-modal">
+          <div class="modal-header">
+            <div>
+              <div class="modal-brand">${escapeHtml(product.brand)} - ${escapeHtml(product.year)}</div>
+              <h5 class="modal-title">${escapeHtml(product.name)}</h5>
+            </div>
+            <button class="btn-close-custom" data-bs-dismiss="modal" aria-label="Cerrar">x</button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-img-col">
+              <img src="${escapeHtml(product.img)}" class="modal-img" alt="${escapeHtml(product.name)}">
+            </div>
+            <div class="modal-info-col">
+              <p>${escapeHtml(product.modalDesc || product.desc)}</p>
+              <ul class="retro-details">${detailsHTML}</ul>
+              <div class="modal-price-row">
+                <span class="modal-price">${escapeHtml(product.price)}</span>
+                <span class="modal-reviews">${escapeHtml(product.stars)} ${escapeHtml(product.reviews)} resenas</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-modal-close" data-bs-dismiss="modal">Cerrar</button>
+            <button class="btn-modal-cart add-cart" data-product-id="${escapeHtml(product.id)}" data-name="${escapeHtml(product.name)}" data-bs-dismiss="modal">Agregar al carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+// Muestra la alerta propia de store.html cuando se agrega un producto.
+// El carrito global tambien guarda el producto; esta alerta solo da retroalimentacion visual.
+function initCartAlert() {
+  document.addEventListener("click", (event) => {
+    if (!event.target.classList.contains("add-cart")) return;
+    const alert = document.getElementById("cartAlert");
+    if (!alert) return;
+    alert.classList.add("show");
+    setTimeout(() => alert.classList.remove("show"), 2500);
+  });
+}
+
+// Convierte el id de producto en un id seguro para usarlo en data-bs-target.
+function getModalId(id) {
+  return `modal-${String(id).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+}
+
+// Limpia texto dinamico antes de insertarlo en HTML.
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}

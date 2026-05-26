@@ -1,642 +1,2896 @@
 {
-  "retro": [
+  "products": [
     {
-      "id": 1,
-      "nombre": "Jersey Brasil 2002",
-      "descripcion": "Edicion retro de la seleccion campeona del mundo.",
-      "precio": 2490,
-      "img": "assets/img/firmados/bz006.webp",
+      "id": "store-1",
+      "collection": "store",
+      "category": "balón profesional",
+      "brand": "Nike",
+      "year": "2004",
+      "name": "Total 90 Aerow",
+      "desc": "Balón icónico utilizado en los años 2004–2005.",
+      "price": "$2,499 MXN",
+      "priceValue": 2499,
+      "stars": "5/5",
+      "reviews": 142,
+      "img": "/src/assets/img/store/balon6.png",
+      "modalDesc": "Uno de los balones más icónicos de los 2000s. Diseñado para máxima precisión y velocidad en partidos profesionales de alto nivel.",
       "badge": "Retro",
-      "badgeColor": "warning"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Año",
+          "value": "2004"
+        },
+        {
+          "label": "Marca",
+          "value": "Nike"
+        },
+        {
+          "label": "Tipo",
+          "value": "Balón profesional"
+        },
+        {
+          "label": "Liga",
+          "value": "Premier League"
+        }
+      ]
     },
     {
-      "id": 2,
-      "nombre": "Jersey Mexico Francia 98",
-      "descripcion": "Clasico jersey verde con diseño azteca.",
-      "precio": 2890,
-      "img": "assets/img/firmados/fr98.webp",
+      "id": "store-2",
+      "collection": "store",
+      "category": "balón oficial fifa",
+      "brand": "Adidas",
+      "year": "2010",
+      "name": "Jabulani",
+      "desc": "Balón oficial del Mundial Sudáfrica 2010.",
+      "price": "$3,199 MXN",
+      "priceValue": 3199,
+      "stars": "5/5",
+      "reviews": 288,
+      "img": "/src/assets/img/store/balon4.webp",
+      "modalDesc": "Balón oficial del Mundial Sudáfrica 2010. Conocido por su aerodinámica inusual que revolucionó el fútbol internacional y generó polémica entre los porteros.",
       "badge": "Retro",
-      "badgeColor": "dark"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Año",
+          "value": "2010"
+        },
+        {
+          "label": "Marca",
+          "value": "Adidas"
+        },
+        {
+          "label": "Torneo",
+          "value": "Mundial Sudáfrica 2010"
+        },
+        {
+          "label": "Tipo",
+          "value": "Balón oficial FIFA"
+        }
+      ]
     },
     {
-      "id": 3,
-      "nombre": "Jersey Milan 2007",
-      "descripcion": "Temporada historica de Champions League.",
-      "precio": 3190,
-      "img": "assets/img/firmados/milan2007.webp",
+      "id": "store-3",
+      "collection": "store",
+      "category": "tacos profesionales",
+      "brand": "Nike",
+      "year": "2002",
+      "name": "Mercurial Vapor R9",
+      "desc": "Inspirados en Ronaldo Nazário, el Fenómeno.",
+      "price": "$5,899 MXN",
+      "priceValue": 5899,
+      "stars": "5/5",
+      "reviews": 91,
+      "img": "/src/assets/img/store/tachosRojos.webp",
+      "modalDesc": "Diseñados en honor a Ronaldo Nazário \"El Fenómeno\", estos tacos marcaron una era. Usados durante el Mundial 2002, donde R9 fue el máximo goleador.",
       "badge": "Retro",
-      "badgeColor": "danger"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Año",
+          "value": "2002"
+        },
+        {
+          "label": "Marca",
+          "value": "Nike"
+        },
+        {
+          "label": "Tipo",
+          "value": "Tacos profesionales"
+        },
+        {
+          "label": "Inspiración",
+          "value": "Ronaldo Nazário"
+        }
+      ]
     },
     {
-      "id": 4,
-      "nombre": "Jersey Argentina 1986",
-      "descripcion": "Inspirado en el mundial de Maradona.",
-      "precio": 2990,
-      "img": "assets/img/firmados/arg86.jpg",
+      "id": "store-4",
+      "collection": "store",
+      "category": "tacos profesionales",
+      "brand": "Adidas",
+      "year": "2002",
+      "name": "Predator Mania",
+      "desc": "Uno de los pares más legendarios del fútbol.",
+      "price": "$6,499 MXN",
+      "priceValue": 6499,
+      "stars": "5/5",
+      "reviews": 203,
+      "img": "/src/assets/img/store/tachosAmarillos.webp",
+      "modalDesc": "Considerados por muchos como el taco más legendario de la historia. Usados por Zidane, Beckham y Figo, definieron el estilo de una generación de futbolistas.",
       "badge": "Retro",
-      "badgeColor": "primary"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Año",
+          "value": "2002"
+        },
+        {
+          "label": "Marca",
+          "value": "Adidas"
+        },
+        {
+          "label": "Tipo",
+          "value": "Tacos profesionales"
+        },
+        {
+          "label": "Usuarios",
+          "value": "Zidane, Beckham, Figo"
+        }
+      ]
     },
     {
-      "id": 5,
-      "nombre": "Jersey Manchester United 1999",
-      "descripcion": "Triplete historico.",
-      "precio": 3390,
-      "img": "assets/img/firmados/united99.webp",
+      "id": "store-5",
+      "collection": "store",
+      "category": "retro",
+      "brand": "Adidas",
+      "year": "2006",
+      "name": "Teamgeist 2006",
+      "desc": "Balón oficial del Mundial Alemania 2006.",
+      "price": "$2,999 MXN",
+      "priceValue": 2999,
+      "stars": "5/5",
+      "reviews": 84,
+      "img": "/src/assets/img/store/balon.jpg",
+      "modalDesc": "El balón del \"Sommermärchen\" alemán. Diseño revolucionario de 14 paneles que mejoró el control y la trayectoria. Utilizado en uno de los mundiales más emotivos.",
       "badge": "Retro",
-      "badgeColor": "danger"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Año",
+          "value": "2006"
+        },
+        {
+          "label": "Marca",
+          "value": "Adidas"
+        },
+        {
+          "label": "Torneo",
+          "value": "Mundial Alemania 2006"
+        },
+        {
+          "label": "Paneles",
+          "value": "14 paneles termosellados"
+        }
+      ]
     },
     {
-      "id": 6,
-      "nombre": "Jersey Real Madrid 2002",
-      "descripcion": "Era galactica con Zidane.",
-      "precio": 3490,
-      "img": "assets/img/firmados/mad02.jpg",
+      "id": "store-6",
+      "collection": "store",
+      "category": "retro",
+      "brand": "Adidas",
+      "year": "2002",
+      "name": "Fevernova 2002",
+      "desc": "Balón clásico del Mundial Corea–Japón 2002.",
+      "price": "$3,499 MXN",
+      "priceValue": 3499,
+      "stars": "5/5",
+      "reviews": 117,
+      "img": "/src/assets/img/store/balon2.webp",
+      "modalDesc": "El polémico balón del primer mundial asiático. Su diseño colorido con motivos orientales lo hizo único. Fue criticado por porteros pero amado por coleccionistas.",
       "badge": "Retro",
-      "badgeColor": "light"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Año",
+          "value": "2002"
+        },
+        {
+          "label": "Marca",
+          "value": "Adidas"
+        },
+        {
+          "label": "Torneo",
+          "value": "Mundial Corea–Japón 2002"
+        },
+        {
+          "label": "Especial",
+          "value": "Primer mundial en Asia"
+        }
+      ]
     },
     {
-      "id": 7,
-      "nombre": "Jersey Barcelona 2009",
-      "descripcion": "Temporada del sextete.",
-      "precio": 3590,
-      "img": "assets/img/firmados/bar09.webp",
+      "id": "store-7",
+      "collection": "store",
+      "category": "retro",
+      "brand": "Adidas",
+      "year": "1986",
+      "name": "Azteca 1986",
+      "desc": "Balón histórico del Mundial México 86.",
+      "price": "$4,299 MXN",
+      "priceValue": 4299,
+      "stars": "5/5",
+      "reviews": 312,
+      "img": "/src/assets/img/store/balon5.webp",
+      "modalDesc": "El primer balón sintético en la historia de los mundiales. Testigo de la \"Mano de Dios\" y el \"Gol del Siglo\" de Diego Armando Maradona. Una reliquia absoluta.",
       "badge": "Retro",
-      "badgeColor": "primary"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Año",
+          "value": "1986"
+        },
+        {
+          "label": "Marca",
+          "value": "Adidas"
+        },
+        {
+          "label": "Torneo",
+          "value": "Mundial México 1986"
+        },
+        {
+          "label": "Histórico",
+          "value": "Primer balón sintético FIFA"
+        }
+      ]
     },
     {
-      "id": 8,
-      "nombre": "Jersey Alemania 1990",
-      "descripcion": "Campeones del mundo.",
-      "precio": 2890,
-      "img": "assets/img/firmados/ale90.webp",
+      "id": "store-8",
+      "collection": "store",
+      "category": "tacos profesionales",
+      "brand": "Nike",
+      "year": "2004",
+      "name": "Total 90 Laser",
+      "desc": "Tacos clásicos utilizados por Wayne Rooney.",
+      "price": "$4,899 MXN",
+      "priceValue": 4899,
+      "stars": "5/5",
+      "reviews": 101,
+      "img": "/src/assets/img/store/tachos.jpg",
+      "modalDesc": "Los tacos preferidos de Wayne Rooney en su época dorada. Diseño robusto y suela de alto agarre que definió el estilo de juego físico de la Premier League de los 2000s.",
       "badge": "Retro",
-      "badgeColor": "dark"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Año",
+          "value": "2004"
+        },
+        {
+          "label": "Marca",
+          "value": "Nike"
+        },
+        {
+          "label": "Tipo",
+          "value": "Tacos profesionales"
+        },
+        {
+          "label": "Usuario icónico",
+          "value": "Wayne Rooney"
+        }
+      ]
     },
     {
-      "id": 9,
-      "nombre": "Jersey Juventus 1996",
-      "descripcion": "Clasico europeo.",
-      "precio": 2790,
-      "img": "assets/img/firmados/juv96.webp",
+      "id": "firmados-page-1",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Brasil 2002",
+      "desc": "Edicion retro de la seleccion campeona del mundo.",
+      "price": "$2,490 MXN",
+      "priceValue": 2490,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/bz006.webp",
+      "modalDesc": "Edicion retro de la seleccion campeona del mundo.",
       "badge": "Retro",
-      "badgeColor": "secondary"
+      "badgeColor": "warning",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,490 MXN"
+        }
+      ]
     },
     {
-      "id": 10,
-      "nombre": "Jersey Holanda 1988",
-      "descripcion": "Diseño iconico naranja.",
-      "precio": 2990,
-      "img": "assets/img/firmados/hol88.webp",
+      "id": "firmados-page-2",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Mexico Francia 98",
+      "desc": "Clasico jersey verde con diseño azteca.",
+      "price": "$2,890 MXN",
+      "priceValue": 2890,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/fr98.webp",
+      "modalDesc": "Clasico jersey verde con diseño azteca.",
       "badge": "Retro",
-      "badgeColor": "warning"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,890 MXN"
+        }
+      ]
     },
     {
-      "id": 11,
-      "nombre": "Jersey Arsenal 2004",
-      "descripcion": "Temporada invicta.",
-      "precio": 3290,
-      "img": "assets/img/firmados/ars2004.webp",
+      "id": "firmados-page-3",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Milan 2007",
+      "desc": "Temporada historica de Champions League.",
+      "price": "$3,190 MXN",
+      "priceValue": 3190,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/milan2007.webp",
+      "modalDesc": "Temporada historica de Champions League.",
       "badge": "Retro",
-      "badgeColor": "danger"
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,190 MXN"
+        }
+      ]
     },
     {
-      "id": 12,
-      "nombre": "Jersey Inter 2010",
-      "descripcion": "Triplete italiano.",
-      "precio": 3390,
-      "img": "assets/img/firmados/triplita.webp",
+      "id": "firmados-page-4",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Argentina 1986",
+      "desc": "Inspirado en el mundial de Maradona.",
+      "price": "$2,990 MXN",
+      "priceValue": 2990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/arg86.jpg",
+      "modalDesc": "Inspirado en el mundial de Maradona.",
       "badge": "Retro",
-      "badgeColor": "primary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,990 MXN"
+        }
+      ]
     },
     {
-      "id": 13,
-      "nombre": "Jersey Chelsea 2012",
-      "descripcion": "Primera Champions.",
-      "precio": 3190,
-      "img": "assets/img/firmados/chel2012.webp",
+      "id": "firmados-page-5",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Manchester United 1999",
+      "desc": "Triplete historico.",
+      "price": "$3,390 MXN",
+      "priceValue": 3390,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/united99.webp",
+      "modalDesc": "Triplete historico.",
       "badge": "Retro",
-      "badgeColor": "primary"
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,390 MXN"
+        }
+      ]
     },
     {
-      "id": 14,
-      "nombre": "Jersey Liverpool 2005",
-      "descripcion": "Final de Estambul.",
-      "precio": 3490,
-      "img": "assets/img/firmados/liver2005.webp",
+      "id": "firmados-page-6",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Real Madrid 2002",
+      "desc": "Era galactica con Zidane.",
+      "price": "$3,490 MXN",
+      "priceValue": 3490,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/mad02.jpg",
+      "modalDesc": "Era galactica con Zidane.",
       "badge": "Retro",
-      "badgeColor": "danger"
+      "badgeColor": "light",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,490 MXN"
+        }
+      ]
     },
     {
-      "id": 15,
-      "nombre": "Jersey PSG 1994",
-      "descripcion": "Clasico parisino.",
-      "precio": 2590,
-      "img": "assets/img/firmados/PSG1994.webp",
+      "id": "firmados-page-7",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Barcelona 2009",
+      "desc": "Temporada del sextete.",
+      "price": "$3,590 MXN",
+      "priceValue": 3590,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/bar09.webp",
+      "modalDesc": "Temporada del sextete.",
       "badge": "Retro",
-      "badgeColor": "primary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,590 MXN"
+        }
+      ]
     },
     {
-      "id": 16,
-      "nombre": "Jersey Atletico Madrid 1996",
-      "descripcion": "Doblete español.",
-      "precio": 2790,
-      "img": "assets/img/firmados/atlmad1996.webp",
+      "id": "firmados-page-8",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Alemania 1990",
+      "desc": "Campeones del mundo.",
+      "price": "$2,890 MXN",
+      "priceValue": 2890,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/ale90.webp",
+      "modalDesc": "Campeones del mundo.",
       "badge": "Retro",
-      "badgeColor": "danger"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,890 MXN"
+        }
+      ]
     },
     {
-      "id": 17,
-      "nombre": "Jersey Dortmund 1997",
-      "descripcion": "Campeon europeo.",
-      "precio": 2990,
-      "img": "assets/img/firmados/dort1997.jpg",
+      "id": "firmados-page-9",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Juventus 1996",
+      "desc": "Clasico europeo.",
+      "price": "$2,790 MXN",
+      "priceValue": 2790,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/juv96.webp",
+      "modalDesc": "Clasico europeo.",
       "badge": "Retro",
-      "badgeColor": "warning"
+      "badgeColor": "secondary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,790 MXN"
+        }
+      ]
     },
     {
-      "id": 18,
-      "nombre": "Jersey AC Milan 1994",
-      "descripcion": "Equipo legendario.",
-      "precio": 3690,
-      "img": "assets/img/firmados/acmil1994.webp",
+      "id": "firmados-page-10",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Holanda 1988",
+      "desc": "Diseño iconico naranja.",
+      "price": "$2,990 MXN",
+      "priceValue": 2990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/hol88.webp",
+      "modalDesc": "Diseño iconico naranja.",
       "badge": "Retro",
-      "badgeColor": "danger"
+      "badgeColor": "warning",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,990 MXN"
+        }
+      ]
     },
     {
-      "id": 19,
-      "nombre": "Jersey Francia 1998",
-      "descripcion": "Campeones en casa.",
-      "precio": 3190,
-      "img": "assets/img/firmados/fran1998.jpg",
+      "id": "firmados-page-11",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Arsenal 2004",
+      "desc": "Temporada invicta.",
+      "price": "$3,290 MXN",
+      "priceValue": 3290,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/ars2004.webp",
+      "modalDesc": "Temporada invicta.",
       "badge": "Retro",
-      "badgeColor": "primary"
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,290 MXN"
+        }
+      ]
     },
     {
-      "id": 20,
-      "nombre": "Jersey Inglaterra 1990",
-      "descripcion": "Clasico mundialista.",
-      "precio": 2890,
-      "img": "assets/img/firmados/ingl1990.webp",
+      "id": "firmados-page-12",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Inter 2010",
+      "desc": "Triplete italiano.",
+      "price": "$3,390 MXN",
+      "priceValue": 3390,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/triplita.webp",
+      "modalDesc": "Triplete italiano.",
       "badge": "Retro",
-      "badgeColor": "light"
-    }
-  ],
-
-  "firmados": [
-    {
-      "id": 21,
-      "nombre": "Jersey firmado Messi",
-      "descripcion": "Autografiado con certificado.",
-      "precio": 18990,
-      "img": "assets/img/firmados/messi.webp",
-      "badge": "Firmado",
-      "badgeColor": "primary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,390 MXN"
+        }
+      ]
     },
     {
-      "id": 22,
-      "nombre": "Jersey firmado Cristiano R.",
-      "descripcion": "Edicion limitada.",
-      "precio": 17990,
-      "img": "assets/img/firmados/ronaldo.jpg",
-      "badge": "Firmado",
-      "badgeColor": "dark"
+      "id": "firmados-page-13",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Chelsea 2012",
+      "desc": "Primera Champions.",
+      "price": "$3,190 MXN",
+      "priceValue": 3190,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/chel2012.webp",
+      "modalDesc": "Primera Champions.",
+      "badge": "Retro",
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,190 MXN"
+        }
+      ]
     },
     {
-      "id": 23,
-      "nombre": "Jersey firmado Neymar Jr",
-      "descripcion": "Con folio internacional.",
-      "precio": 12990,
-      "img": "assets/img/firmados/ney.webp",
-      "badge": "Firmado",
-      "badgeColor": "warning"
+      "id": "firmados-page-14",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Liverpool 2005",
+      "desc": "Final de Estambul.",
+      "price": "$3,490 MXN",
+      "priceValue": 3490,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/liver2005.webp",
+      "modalDesc": "Final de Estambul.",
+      "badge": "Retro",
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,490 MXN"
+        }
+      ]
     },
     {
-      "id": 24,
-      "nombre": "Jersey firmado Ronaldinho",
-      "descripcion": "Edicion premium.",
-      "precio": 14990,
-      "img": "assets/img/firmados/ronaldinho.avif",
-      "badge": "Firmado",
-      "badgeColor": "dark"
+      "id": "firmados-page-15",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey PSG 1994",
+      "desc": "Clasico parisino.",
+      "price": "$2,590 MXN",
+      "priceValue": 2590,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/PSG1994.webp",
+      "modalDesc": "Clasico parisino.",
+      "badge": "Retro",
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,590 MXN"
+        }
+      ]
     },
     {
-      "id": 25,
-      "nombre": "Jersey firmado Zidane",
-      "descripcion": "Coleccion mundialista.",
-      "precio": 16990,
-      "img": "assets/img/firmados/zidane.jpg",
-      "badge": "Firmado",
-      "badgeColor": "secondary"
+      "id": "firmados-page-16",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Atletico Madrid 1996",
+      "desc": "Doblete español.",
+      "price": "$2,790 MXN",
+      "priceValue": 2790,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/atlmad1996.webp",
+      "modalDesc": "Doblete español.",
+      "badge": "Retro",
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,790 MXN"
+        }
+      ]
     },
     {
-      "id": 26,
-      "nombre": "Jersey firmado Mbappe",
-      "descripcion": "Temporada especial PSG.",
-      "precio": 11990,
-      "img": "assets/img/firmados/mbappe.jpg",
-      "badge": "Firmado",
-      "badgeColor": "primary"
+      "id": "firmados-page-17",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Dortmund 1997",
+      "desc": "Campeon europeo.",
+      "price": "$2,990 MXN",
+      "priceValue": 2990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/dort1997.jpg",
+      "modalDesc": "Campeon europeo.",
+      "badge": "Retro",
+      "badgeColor": "warning",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,990 MXN"
+        }
+      ]
     },
     {
-      "id": 27,
-      "nombre": "Jersey firmado Modric",
-      "descripcion": "Autografo autenticado.",
-      "precio": 9990,
-      "img": "assets/img/firmados/modric.jpg",
-      "badge": "Firmado",
-      "badgeColor": "light"
+      "id": "firmados-page-18",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey AC Milan 1994",
+      "desc": "Equipo legendario.",
+      "price": "$3,690 MXN",
+      "priceValue": 3690,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/acmil1994.webp",
+      "modalDesc": "Equipo legendario.",
+      "badge": "Retro",
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,690 MXN"
+        }
+      ]
     },
     {
-      "id": 28,
-      "nombre": "Jersey firmado Maldini",
-      "descripcion": "Leyenda del Milan.",
-      "precio": 17990,
-      "img": "assets/img/firmados/maldini.webp",
-      "badge": "Firmado",
-      "badgeColor": "danger"
+      "id": "firmados-page-19",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Francia 1998",
+      "desc": "Campeones en casa.",
+      "price": "$3,190 MXN",
+      "priceValue": 3190,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/fran1998.jpg",
+      "modalDesc": "Campeones en casa.",
+      "badge": "Retro",
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$3,190 MXN"
+        }
+      ]
     },
     {
-      "id": 29,
-      "nombre": "Jersey firmado T. Henry",
-      "descripcion": "Edicion Arsenal.",
-      "precio": 13990,
-      "img": "assets/img/firmados/henry.webp",
-      "badge": "Firmado",
-      "badgeColor": "danger"
+      "id": "firmados-page-20",
+      "collection": "firmados-page",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey Inglaterra 1990",
+      "desc": "Clasico mundialista.",
+      "price": "$2,890 MXN",
+      "priceValue": 2890,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/ingl1990.webp",
+      "modalDesc": "Clasico mundialista.",
+      "badge": "Retro",
+      "badgeColor": "light",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,890 MXN"
+        }
+      ]
     },
     {
-      "id": 30,
-      "nombre": "Jersey firmado Pirlo",
-      "descripcion": "Pieza exclusiva italiana.",
-      "precio": 10990,
-      "img": "assets/img/firmados/pirlo.jpg",
+      "id": "firmados-page-21",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Messi",
+      "desc": "Autografiado con certificado.",
+      "price": "$18,990 MXN",
+      "priceValue": 18990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/messi.webp",
+      "modalDesc": "Autografiado con certificado.",
       "badge": "Firmado",
-      "badgeColor": "secondary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$18,990 MXN"
+        }
+      ]
     },
     {
-      "id": 31,
-      "nombre": "Jersey firmado Ramos",
-      "descripcion": "Capitan historico.",
-      "precio": 11990,
-      "img": "assets/img/firmados/ramos.jpg",
+      "id": "firmados-page-22",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Cristiano R.",
+      "desc": "Edicion limitada.",
+      "price": "$17,990 MXN",
+      "priceValue": 17990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/ronaldo.jpg",
+      "modalDesc": "Edicion limitada.",
       "badge": "Firmado",
-      "badgeColor": "light"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$17,990 MXN"
+        }
+      ]
     },
     {
-      "id": 32,
-      "nombre": "Jersey firmado Kaká",
-      "descripcion": "Balon de Oro.",
-      "precio": 14990,
-      "img": "assets/img/firmados/kaka.jpg",
+      "id": "firmados-page-23",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Neymar Jr",
+      "desc": "Con folio internacional.",
+      "price": "$12,990 MXN",
+      "priceValue": 12990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/ney.webp",
+      "modalDesc": "Con folio internacional.",
       "badge": "Firmado",
-      "badgeColor": "danger"
+      "badgeColor": "warning",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$12,990 MXN"
+        }
+      ]
     },
     {
-      "id": 33,
-      "nombre": "Jersey firmado Iniesta",
-      "descripcion": "Gol mundialista.",
-      "precio": 15990,
-      "img": "assets/img/firmados/iniesta.jpg",
+      "id": "firmados-page-24",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Ronaldinho",
+      "desc": "Edicion premium.",
+      "price": "$14,990 MXN",
+      "priceValue": 14990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/ronaldinho.avif",
+      "modalDesc": "Edicion premium.",
       "badge": "Firmado",
-      "badgeColor": "primary"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$14,990 MXN"
+        }
+      ]
     },
     {
-      "id": 34,
-      "nombre": "Jersey firmado Xavi",
-      "descripcion": "Maestro del mediocampo.",
-      "precio": 13990,
-      "img": "assets/img/firmados/xavi.jpg",
+      "id": "firmados-page-25",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Zidane",
+      "desc": "Coleccion mundialista.",
+      "price": "$16,990 MXN",
+      "priceValue": 16990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/zidane.jpg",
+      "modalDesc": "Coleccion mundialista.",
       "badge": "Firmado",
-      "badgeColor": "primary"
+      "badgeColor": "secondary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$16,990 MXN"
+        }
+      ]
     },
     {
-      "id": 35,
-      "nombre": "Jersey firmado Buffon",
-      "descripcion": "Leyenda italiana.",
-      "precio": 12990,
-      "img": "assets/img/firmados/buffonJ.jpg",
+      "id": "firmados-page-26",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Mbappe",
+      "desc": "Temporada especial PSG.",
+      "price": "$11,990 MXN",
+      "priceValue": 11990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/mbappe.jpg",
+      "modalDesc": "Temporada especial PSG.",
       "badge": "Firmado",
-      "badgeColor": "secondary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$11,990 MXN"
+        }
+      ]
     },
     {
-      "id": 36,
-      "nombre": "Jersey firmado Rooney",
-      "descripcion": "Coleccion United.",
-      "precio": 11990,
-      "img": "assets/img/firmados/rooney.jpg",
+      "id": "firmados-page-27",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Modric",
+      "desc": "Autografo autenticado.",
+      "price": "$9,990 MXN",
+      "priceValue": 9990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/modric.jpg",
+      "modalDesc": "Autografo autenticado.",
       "badge": "Firmado",
-      "badgeColor": "danger"
+      "badgeColor": "light",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$9,990 MXN"
+        }
+      ]
     },
     {
-      "id": 37,
-      "nombre": "Jersey firmado Drogba",
-      "descripcion": "Icono del Chelsea.",
-      "precio": 10990,
-      "img": "assets/img/firmados/drogba.jpg",
+      "id": "firmados-page-28",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Maldini",
+      "desc": "Leyenda del Milan.",
+      "price": "$17,990 MXN",
+      "priceValue": 17990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/maldini.webp",
+      "modalDesc": "Leyenda del Milan.",
       "badge": "Firmado",
-      "badgeColor": "primary"
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$17,990 MXN"
+        }
+      ]
     },
     {
-      "id": 38,
-      "nombre": "Jersey firmado Gerrard",
-      "descripcion": "Capitan legendario.",
-      "precio": 12990,
-      "img": "assets/img/firmados/gerrard.jpg",
+      "id": "firmados-page-29",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado T. Henry",
+      "desc": "Edicion Arsenal.",
+      "price": "$13,990 MXN",
+      "priceValue": 13990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/henry.webp",
+      "modalDesc": "Edicion Arsenal.",
       "badge": "Firmado",
-      "badgeColor": "danger"
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$13,990 MXN"
+        }
+      ]
     },
     {
-      "id": 39,
-      "nombre": "Jersey firmado Del Piero",
-      "descripcion": "Edicion Juventus.",
-      "precio": 13990,
-      "img": "assets/img/firmados/delpiero.webp",
+      "id": "firmados-page-30",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Pirlo",
+      "desc": "Pieza exclusiva italiana.",
+      "price": "$10,990 MXN",
+      "priceValue": 10990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/pirlo.jpg",
+      "modalDesc": "Pieza exclusiva italiana.",
       "badge": "Firmado",
-      "badgeColor": "secondary"
+      "badgeColor": "secondary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$10,990 MXN"
+        }
+      ]
     },
     {
-      "id": 40,
-      "nombre": "Jersey firmado Beckham",
-      "descripcion": "Coleccion inglesa.",
-      "precio": 16990,
-      "img": "assets/img/firmados/beckham.jpg",
+      "id": "firmados-page-31",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Ramos",
+      "desc": "Capitan historico.",
+      "price": "$11,990 MXN",
+      "priceValue": 11990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/ramos.jpg",
+      "modalDesc": "Capitan historico.",
       "badge": "Firmado",
-      "badgeColor": "light"
-    }
-  ],
-
-  "articulos": [
+      "badgeColor": "light",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$11,990 MXN"
+        }
+      ]
+    },
     {
-      "id": 41,
-      "nombre": "Balon Champions League",
-      "descripcion": "Balon oficial UEFA.",
-      "precio": 2490,
-      "img": "assets/img/firmados/champue.webp",
+      "id": "firmados-page-32",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Kaká",
+      "desc": "Balon de Oro.",
+      "price": "$14,990 MXN",
+      "priceValue": 14990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/kaka.jpg",
+      "modalDesc": "Balon de Oro.",
+      "badge": "Firmado",
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$14,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-33",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Iniesta",
+      "desc": "Gol mundialista.",
+      "price": "$15,990 MXN",
+      "priceValue": 15990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/iniesta.jpg",
+      "modalDesc": "Gol mundialista.",
+      "badge": "Firmado",
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$15,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-34",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Xavi",
+      "desc": "Maestro del mediocampo.",
+      "price": "$13,990 MXN",
+      "priceValue": 13990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/xavi.jpg",
+      "modalDesc": "Maestro del mediocampo.",
+      "badge": "Firmado",
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$13,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-35",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Buffon",
+      "desc": "Leyenda italiana.",
+      "price": "$12,990 MXN",
+      "priceValue": 12990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/buffonJ.jpg",
+      "modalDesc": "Leyenda italiana.",
+      "badge": "Firmado",
+      "badgeColor": "secondary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$12,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-36",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Rooney",
+      "desc": "Coleccion United.",
+      "price": "$11,990 MXN",
+      "priceValue": 11990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/rooney.jpg",
+      "modalDesc": "Coleccion United.",
+      "badge": "Firmado",
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$11,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-37",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Drogba",
+      "desc": "Icono del Chelsea.",
+      "price": "$10,990 MXN",
+      "priceValue": 10990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/drogba.jpg",
+      "modalDesc": "Icono del Chelsea.",
+      "badge": "Firmado",
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$10,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-38",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Gerrard",
+      "desc": "Capitan legendario.",
+      "price": "$12,990 MXN",
+      "priceValue": 12990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/gerrard.jpg",
+      "modalDesc": "Capitan legendario.",
+      "badge": "Firmado",
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$12,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-39",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Del Piero",
+      "desc": "Edicion Juventus.",
+      "price": "$13,990 MXN",
+      "priceValue": 13990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/delpiero.webp",
+      "modalDesc": "Edicion Juventus.",
+      "badge": "Firmado",
+      "badgeColor": "secondary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$13,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-40",
+      "collection": "firmados-page",
+      "category": "firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Jersey firmado Beckham",
+      "desc": "Coleccion inglesa.",
+      "price": "$16,990 MXN",
+      "priceValue": 16990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/beckham.jpg",
+      "modalDesc": "Coleccion inglesa.",
+      "badge": "Firmado",
+      "badgeColor": "light",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$16,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "firmados-page-41",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Balon Champions League",
+      "desc": "Balon oficial UEFA.",
+      "price": "$2,490 MXN",
+      "priceValue": 2490,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/champue.webp",
+      "modalDesc": "Balon oficial UEFA.",
       "badge": "Nuevo",
-      "badgeColor": "primary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,490 MXN"
+        }
+      ]
     },
     {
-      "id": 42,
-      "nombre": "Guantes firmados Buffon",
-      "descripcion": "Par profesional autenticado.",
-      "precio": 8990,
-      "img": "assets/img/firmados/bufgua.webp",
+      "id": "firmados-page-42",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Guantes firmados Buffon",
+      "desc": "Par profesional autenticado.",
+      "price": "$8,990 MXN",
+      "priceValue": 8990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/bufgua.webp",
+      "modalDesc": "Par profesional autenticado.",
       "badge": "Limitado",
-      "badgeColor": "warning"
+      "badgeColor": "warning",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$8,990 MXN"
+        }
+      ]
     },
     {
-      "id": 43,
-      "nombre": "Casco NFL firmado Brady",
-      "descripcion": "Helmet de coleccion NFL.",
-      "precio": 22990,
-      "img": "assets/img/firmados/nflcas.jpg",
+      "id": "firmados-page-43",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Casco NFL firmado Brady",
+      "desc": "Helmet de coleccion NFL.",
+      "price": "$22,990 MXN",
+      "priceValue": 22990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/nflcas.jpg",
+      "modalDesc": "Helmet de coleccion NFL.",
       "badge": "Firmado",
-      "badgeColor": "primary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$22,990 MXN"
+        }
+      ]
     },
     {
-      "id": 44,
-      "nombre": "Balon NBA firmado Kobe Bryant",
-      "descripcion": "Balon Spalding oficial.",
-      "precio": 29990,
-      "img": "assets/img/firmados/spalkobe.jpg",
+      "id": "firmados-page-44",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Balon NBA firmado Kobe Bryant",
+      "desc": "Balon Spalding oficial.",
+      "price": "$29,990 MXN",
+      "priceValue": 29990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/spalkobe.jpg",
+      "modalDesc": "Balon Spalding oficial.",
       "badge": "Legend",
-      "badgeColor": "dark"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$29,990 MXN"
+        }
+      ]
     },
     {
-      "id": 45,
-      "nombre": "Bat firmado Derek Jeter",
-      "descripcion": "Edicion MLB.",
-      "precio": 15990,
-      "img": "assets/img/firmados/jetermlb.jpg",
+      "id": "firmados-page-45",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Bat firmado Derek Jeter",
+      "desc": "Edicion MLB.",
+      "price": "$15,990 MXN",
+      "priceValue": 15990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/jetermlb.jpg",
+      "modalDesc": "Edicion MLB.",
       "badge": "MLB",
-      "badgeColor": "secondary"
+      "badgeColor": "secondary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$15,990 MXN"
+        }
+      ]
     },
     {
-      "id": 46,
-      "nombre": "Espinilleras Nike Mercurial",
-      "descripcion": "Proteccion profesional.",
-      "precio": 890,
-      "img": "assets/img/firmados/merc.webp",
+      "id": "firmados-page-46",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Espinilleras Nike Mercurial",
+      "desc": "Proteccion profesional.",
+      "price": "$890 MXN",
+      "priceValue": 890,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/merc.webp",
+      "modalDesc": "Proteccion profesional.",
       "badge": "Training",
-      "badgeColor": "dark"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$890 MXN"
+        }
+      ]
     },
     {
-      "id": 47,
-      "nombre": "Mochila Adidas Football",
-      "descripcion": "Impermeable deportiva.",
-      "precio": 1290,
-      "img": "assets/img/firmados/modep.jpg",
+      "id": "firmados-page-47",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Mochila Adidas Football",
+      "desc": "Impermeable deportiva.",
+      "price": "$1,290 MXN",
+      "priceValue": 1290,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/modep.jpg",
+      "modalDesc": "Impermeable deportiva.",
       "badge": "Nuevo",
-      "badgeColor": "secondary"
+      "badgeColor": "secondary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$1,290 MXN"
+        }
+      ]
     },
     {
-      "id": 48,
-      "nombre": "Conos de entrenamiento",
-      "descripcion": "Set profesional.",
-      "precio": 590,
-      "img": "assets/img/firmados/cono.jpg",
+      "id": "firmados-page-48",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Conos de entrenamiento",
+      "desc": "Set profesional.",
+      "price": "$590 MXN",
+      "priceValue": 590,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/cono.jpg",
+      "modalDesc": "Set profesional.",
       "badge": "Training",
-      "badgeColor": "success"
+      "badgeColor": "success",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$590 MXN"
+        }
+      ]
     },
     {
-      "id": 49,
-      "nombre": "Balon Puma La Liga",
-      "descripcion": "Edicion oficial.",
-      "precio": 1890,
-      "img": "assets/img/firmados/ligapum.webp",
+      "id": "firmados-page-49",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Balon Puma La Liga",
+      "desc": "Edicion oficial.",
+      "price": "$1,890 MXN",
+      "priceValue": 1890,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/ligapum.webp",
+      "modalDesc": "Edicion oficial.",
       "badge": "Nuevo",
-      "badgeColor": "danger"
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$1,890 MXN"
+        }
+      ]
     },
     {
-      "id": 50,
-      "nombre": "Guantes Elite Goalkeeper",
-      "descripcion": "Grip profesional.",
-      "precio": 2490,
-      "img": "assets/img/firmados/elitkeep.webp",
+      "id": "firmados-page-50",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Guantes Elite Goalkeeper",
+      "desc": "Grip profesional.",
+      "price": "$2,490 MXN",
+      "priceValue": 2490,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/elitkeep.webp",
+      "modalDesc": "Grip profesional.",
       "badge": "Pro",
-      "badgeColor": "warning"
+      "badgeColor": "warning",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,490 MXN"
+        }
+      ]
     },
     {
-      "id": 51,
-      "nombre": "Cronometro digital",
-      "descripcion": "Ideal para entrenamiento.",
-      "precio": 690,
-      "img": "assets/img/firmados/cron.jpg",
+      "id": "firmados-page-51",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Cronometro digital",
+      "desc": "Ideal para entrenamiento.",
+      "price": "$690 MXN",
+      "priceValue": 690,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/cron.jpg",
+      "modalDesc": "Ideal para entrenamiento.",
       "badge": "Training",
-      "badgeColor": "success"
+      "badgeColor": "success",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$690 MXN"
+        }
+      ]
     },
     {
-      "id": 52,
-      "nombre": "Cuerda de velocidad",
-      "descripcion": "Accesorio fitness.",
-      "precio": 490,
-      "img": "assets/img/firmados/cuerdve.webp",
+      "id": "firmados-page-52",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Cuerda de velocidad",
+      "desc": "Accesorio fitness.",
+      "price": "$490 MXN",
+      "priceValue": 490,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/cuerdve.webp",
+      "modalDesc": "Accesorio fitness.",
       "badge": "Gym",
-      "badgeColor": "dark"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$490 MXN"
+        }
+      ]
     },
     {
-      "id": 53,
-      "nombre": "Balon firmado Pelé",
-      "descripcion": "Pieza vintage.",
-      "precio": 24990,
-      "img": "assets/img/firmados/balpel.jpg",
+      "id": "firmados-page-53",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Balon firmado Pelé",
+      "desc": "Pieza vintage.",
+      "price": "$24,990 MXN",
+      "priceValue": 24990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/balpel.jpg",
+      "modalDesc": "Pieza vintage.",
       "badge": "Coleccion",
-      "badgeColor": "dark"
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$24,990 MXN"
+        }
+      ]
     },
     {
-      "id": 54,
-      "nombre": "Casco firmado Mahomes",
-      "descripcion": "Coleccion NFL.",
-      "precio": 19990,
-      "img": "assets/img/firmados/mahocas.webp",
+      "id": "firmados-page-54",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Casco firmado Mahomes",
+      "desc": "Coleccion NFL.",
+      "price": "$19,990 MXN",
+      "priceValue": 19990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/mahocas.webp",
+      "modalDesc": "Coleccion NFL.",
       "badge": "Firmado",
-      "badgeColor": "danger"
+      "badgeColor": "danger",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$19,990 MXN"
+        }
+      ]
     },
     {
-      "id": 55,
-      "nombre": "Balon firmado Magic Johnson",
-      "descripcion": "NBA memorabilia.",
-      "precio": 18990,
-      "img": "assets/img/firmados/majoh.webp",
+      "id": "firmados-page-55",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Balon firmado Magic Johnson",
+      "desc": "NBA memorabilia.",
+      "price": "$18,990 MXN",
+      "priceValue": 18990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/majoh.webp",
+      "modalDesc": "NBA memorabilia.",
       "badge": "Legend",
-      "badgeColor": "warning"
+      "badgeColor": "warning",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$18,990 MXN"
+        }
+      ]
     },
     {
-      "id": 56,
-      "nombre": "Bandas elasticas",
-      "descripcion": "Set fitness deportivo.",
-      "precio": 790,
-      "img": "assets/img/firmados/bandel.avif",
+      "id": "firmados-page-56",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Bandas elasticas",
+      "desc": "Set fitness deportivo.",
+      "price": "$790 MXN",
+      "priceValue": 790,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/bandel.avif",
+      "modalDesc": "Set fitness deportivo.",
       "badge": "Fitness",
-      "badgeColor": "success"
+      "badgeColor": "success",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$790 MXN"
+        }
+      ]
     },
     {
-      "id": 57,
-      "nombre": "Termo deportivo Nike",
-      "descripcion": "Botella termica premium.",
-      "precio": 690,
-      "img": "assets/img/firmados/niketerm.webp",
+      "id": "firmados-page-57",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Termo deportivo Nike",
+      "desc": "Botella termica premium.",
+      "price": "$690 MXN",
+      "priceValue": 690,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/niketerm.webp",
+      "modalDesc": "Botella termica premium.",
       "badge": "Nuevo",
-      "badgeColor": "primary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$690 MXN"
+        }
+      ]
     },
     {
-      "id": 58,
-      "nombre": "Red de entrenamiento",
-      "descripcion": "Porteria plegable.",
-      "precio": 1490,
-      "img": "assets/img/firmados/red.webp",
+      "id": "firmados-page-58",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Red de entrenamiento",
+      "desc": "Porteria plegable.",
+      "price": "$1,490 MXN",
+      "priceValue": 1490,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/red.webp",
+      "modalDesc": "Porteria plegable.",
       "badge": "Training",
-      "badgeColor": "success"
+      "badgeColor": "success",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$1,490 MXN"
+        }
+      ]
     },
     {
-      "id": 59,
-      "nombre": "Balon retro Adidas Tango",
-      "descripcion": "Diseño clasico.",
-      "precio": 2790,
-      "img": "assets/img/firmados/adid.jpg",
+      "id": "firmados-page-59",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Balon retro Adidas Tango",
+      "desc": "Diseño clasico.",
+      "price": "$2,790 MXN",
+      "priceValue": 2790,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/adid.jpg",
+      "modalDesc": "Diseño clasico.",
       "badge": "Retro",
-      "badgeColor": "light"
+      "badgeColor": "light",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,790 MXN"
+        }
+      ]
     },
     {
-      "id": 60,
-      "nombre": "Guantes firmados Casillas",
-      "descripcion": "Memorabilia española.",
-      "precio": 12990,
-      "img": "assets/img/firmados/casillasgua.jpg",
+      "id": "firmados-page-60",
+      "collection": "firmados-page",
+      "category": "memorabilia",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Guantes firmados Casillas",
+      "desc": "Memorabilia española.",
+      "price": "$12,990 MXN",
+      "priceValue": 12990,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/firmados/casillasgua.jpg",
+      "modalDesc": "Memorabilia española.",
       "badge": "Firmado",
-      "badgeColor": "primary"
+      "badgeColor": "primary",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "memorabilia"
+        },
+        {
+          "label": "Coleccion",
+          "value": "firmados-page"
+        },
+        {
+          "label": "Precio",
+          "value": "$12,990 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-retro-1",
+      "collection": "jerseys-retro",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Argentina 2010",
+      "desc": "Revive la elegancia albiceleste con el jersey de visitante utilizado en el Mundial de Sudáfrica 2010. Con un diseño impecable en dos tonos de azul y detalles retro inspirados en los años 80, esta pieza quedó marcada en la historia por ser la primera Copa del Mundo donde Leo Messi portó la legendaria camiseta número 10. Un corte clásico para los verdaderos amantes del fútbol sudamericano.",
+      "price": "$1800 MXN",
+      "priceValue": 1800,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/argentina_retro.jpg",
+      "modalDesc": "Revive la elegancia albiceleste con el jersey de visitante utilizado en el Mundial de Sudáfrica 2010. Con un diseño impecable en dos tonos de azul y detalles retro inspirados en los años 80, esta pieza quedó marcada en la historia por ser la primera Copa del Mundo donde Leo Messi portó la legendaria camiseta número 10. Un corte clásico para los verdaderos amantes del fútbol sudamericano.",
+      "badge": "jersey retro",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-retro"
+        },
+        {
+          "label": "Precio",
+          "value": "$1800 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-retro-2",
+      "collection": "jerseys-retro",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Brasil 2002",
+      "desc": "El año del Pentacampeonato. Esta es la icónica camiseta de local que vistió la selección brasileña en el Mundial de Corea-Japón 2002, donde el Scratch du Oro dominó el planeta de la mano de Ronaldo, Ronaldinho y Rivaldo. Un diseño vibrante con los clásicos vivos verdes en los hombros que respira la auténtica esencia del Jogo Bonito. Una joya obligatoria para cualquier coleccionista.",
+      "price": "$1700 MXN",
+      "priceValue": 1700,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/brasil_retro.jpg",
+      "modalDesc": "El año del Pentacampeonato. Esta es la icónica camiseta de local que vistió la selección brasileña en el Mundial de Corea-Japón 2002, donde el Scratch du Oro dominó el planeta de la mano de Ronaldo, Ronaldinho y Rivaldo. Un diseño vibrante con los clásicos vivos verdes en los hombros que respira la auténtica esencia del Jogo Bonito. Una joya obligatoria para cualquier coleccionista.",
+      "badge": "jersey retro",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-retro"
+        },
+        {
+          "label": "Precio",
+          "value": "$1700 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-retro-3",
+      "collection": "jerseys-retro",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Mexico 1998",
+      "desc": "Una obra de arte hecha jersey. La legendaria camiseta utilizada por la Selección Mexicana en el Mundial de Francia 1998, famosa a nivel mundial por el imponente Calendario Azteca difuminado sobre el clásico color verde. Recordada por las grandes hazañas de Luis Hernández y Cuauhtémoc Blanco, es considerada por expertos internacionales como una de las playeras más hermosas e icónicas en la historia del fútbol.",
+      "price": "$1900 MXN",
+      "priceValue": 1900,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/mexico_retro.jpg",
+      "modalDesc": "Una obra de arte hecha jersey. La legendaria camiseta utilizada por la Selección Mexicana en el Mundial de Francia 1998, famosa a nivel mundial por el imponente Calendario Azteca difuminado sobre el clásico color verde. Recordada por las grandes hazañas de Luis Hernández y Cuauhtémoc Blanco, es considerada por expertos internacionales como una de las playeras más hermosas e icónicas en la historia del fútbol.",
+      "badge": "jersey retro",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-retro"
+        },
+        {
+          "label": "Precio",
+          "value": "$1900 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-retro-4",
+      "collection": "jerseys-retro",
+      "category": "jersey retro",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Francia 2006",
+      "desc": "Historia pura del fútbol europeo. El elegante jersey de visitante blanco con el degradado azul y rojo en el pecho, utilizado por la selección francesa en el Mundial de Alemania 2006. Esta camiseta inmortalizó la magistral e inolvidable última campaña de Zinedine Zidane antes de su retiro. Un diseño sobrio, estético y cargado de nostalgia que luce perfecto tanto en la cancha como en la calle.",
+      "price": "$1900 MXN",
+      "priceValue": 1900,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/francia_retro.jpg",
+      "modalDesc": "Historia pura del fútbol europeo. El elegante jersey de visitante blanco con el degradado azul y rojo en el pecho, utilizado por la selección francesa en el Mundial de Alemania 2006. Esta camiseta inmortalizó la magistral e inolvidable última campaña de Zinedine Zidane antes de su retiro. Un diseño sobrio, estético y cargado de nostalgia que luce perfecto tanto en la cancha como en la calle.",
+      "badge": "jersey retro",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey retro"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-retro"
+        },
+        {
+          "label": "Precio",
+          "value": "$1900 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-actuales-a1",
+      "collection": "jerseys-actuales",
+      "category": "jersey actual",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "México 2026",
+      "desc": "Nuevo jersey de México edición 2026...",
+      "price": "$2200 MXN",
+      "priceValue": 2200,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/mexico_2026.jpg",
+      "modalDesc": "Nuevo jersey de México edición 2026...",
+      "badge": "jersey actual",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey actual"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-actuales"
+        },
+        {
+          "label": "Precio",
+          "value": "$2200 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-actuales-a2",
+      "collection": "jerseys-actuales",
+      "category": "jersey actual",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Francia 2026",
+      "desc": "Diseño moderno de Francia...",
+      "price": "$2100 MXN",
+      "priceValue": 2100,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/francia_2026.jpg",
+      "modalDesc": "Diseño moderno de Francia...",
+      "badge": "jersey actual",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey actual"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-actuales"
+        },
+        {
+          "label": "Precio",
+          "value": "$2100 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-actuales-a3",
+      "collection": "jerseys-actuales",
+      "category": "jersey actual",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Inglaterra 2026",
+      "desc": "Jersey elegante de Inglaterra...",
+      "price": "$2300 MXN",
+      "priceValue": 2300,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/inglaterra_2026.png",
+      "modalDesc": "Jersey elegante de Inglaterra...",
+      "badge": "jersey actual",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey actual"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-actuales"
+        },
+        {
+          "label": "Precio",
+          "value": "$2300 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-actuales-a4",
+      "collection": "jerseys-actuales",
+      "category": "jersey actual",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Bélgica 2026",
+      "desc": "Jersey de Bélgica edición 2026...",
+      "price": "$2300 MXN",
+      "priceValue": 2300,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/belgica_2026.jpg",
+      "modalDesc": "Jersey de Bélgica edición 2026...",
+      "badge": "jersey actual",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey actual"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-actuales"
+        },
+        {
+          "label": "Precio",
+          "value": "$2300 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-firmados-f1",
+      "collection": "jerseys-firmados",
+      "category": "jersey firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Messi Argentina Firmado",
+      "desc": "Jersey firmado por Messi con certificado de autenticidad.",
+      "price": "$8500 MXN",
+      "priceValue": 8500,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/messi.jpg",
+      "modalDesc": "Jersey firmado por Messi con certificado de autenticidad.",
+      "badge": "jersey firmado",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-firmados"
+        },
+        {
+          "label": "Precio",
+          "value": "$8500 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-firmados-f2",
+      "collection": "jerseys-firmados",
+      "category": "jersey firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Cristiano Ronaldo Firmado",
+      "desc": "Camiseta firmada por Cristiano Ronaldo con certificado de autenticidad.",
+      "price": "$9000 MXN",
+      "priceValue": 9000,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/CR7.jpeg",
+      "modalDesc": "Camiseta firmada por Cristiano Ronaldo con certificado de autenticidad.",
+      "badge": "jersey firmado",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-firmados"
+        },
+        {
+          "label": "Precio",
+          "value": "$9000 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-firmados-f3",
+      "collection": "jerseys-firmados",
+      "category": "jersey firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Neymar Brasil Firmado",
+      "desc": "Jersey de Brasil firmado por Neymar Jr con certificado de autenticidad.",
+      "price": "$7800 MXN",
+      "priceValue": 7800,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/neymar.jpg",
+      "modalDesc": "Jersey de Brasil firmado por Neymar Jr con certificado de autenticidad.",
+      "badge": "jersey firmado",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-firmados"
+        },
+        {
+          "label": "Precio",
+          "value": "$7800 MXN"
+        }
+      ]
+    },
+    {
+      "id": "jerseys-firmados-f4",
+      "collection": "jerseys-firmados",
+      "category": "jersey firmado",
+      "brand": "Gift for Fifas",
+      "year": "Coleccion",
+      "name": "Zidane Francia Firmado",
+      "desc": "Jersey firmado por Zinedine Zidane con certificado de autenticidad.",
+      "price": "$9500 MXN",
+      "priceValue": 9500,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/jerseys/zidane.jpg",
+      "modalDesc": "Jersey firmado por Zinedine Zidane con certificado de autenticidad.",
+      "badge": "jersey firmado",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "jersey firmado"
+        },
+        {
+          "label": "Coleccion",
+          "value": "jerseys-firmados"
+        },
+        {
+          "label": "Precio",
+          "value": "$9500 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-1",
+      "collection": "articulos-deportivos",
+      "category": "balones",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Balon Oficial 2026",
+      "desc": "Balon edicion especial Mundial 2026.",
+      "price": "$1,499 MXN",
+      "priceValue": 1499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/balon.PNG",
+      "modalDesc": "Balon edicion especial Mundial 2026.",
+      "badge": "balones",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "balones"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$1,499 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-2",
+      "collection": "articulos-deportivos",
+      "category": "equipamiento",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Gorra Oficial",
+      "desc": "Gorra edicion Mundial FIFA 2026.",
+      "price": "$1,899 MXN",
+      "priceValue": 1899,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/gorra.jpg",
+      "modalDesc": "Gorra edicion Mundial FIFA 2026.",
+      "badge": "equipamiento",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "equipamiento"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$1,899 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-3",
+      "collection": "articulos-deportivos",
+      "category": "equipamiento",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Tacos Profesionales",
+      "desc": "Maximo rendimiento en cancha.",
+      "price": "$2,499 MXN",
+      "priceValue": 2499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/tacos.JPG",
+      "modalDesc": "Maximo rendimiento en cancha.",
+      "badge": "equipamiento",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "equipamiento"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$2,499 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-4",
+      "collection": "articulos-deportivos",
+      "category": "equipamiento",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Espinilleras",
+      "desc": "Proteccion ligera para entrenamiento y partidos.",
+      "price": "$699 MXN",
+      "priceValue": 699,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/espinilleras.jpg",
+      "modalDesc": "Proteccion ligera para entrenamiento y partidos.",
+      "badge": "equipamiento",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "equipamiento"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$699 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-5",
+      "collection": "articulos-deportivos",
+      "category": "equipamiento",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Calcetas",
+      "desc": "Calcetas deportivas para uso diario en cancha.",
+      "price": "$399 MXN",
+      "priceValue": 399,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/calcetas.jpg",
+      "modalDesc": "Calcetas deportivas para uso diario en cancha.",
+      "badge": "equipamiento",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "equipamiento"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$399 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-6",
+      "collection": "articulos-deportivos",
+      "category": "ropa",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Bufanda Mundialista",
+      "desc": "Lleva contigo la pasion del futbol.",
+      "price": "$499 MXN",
+      "priceValue": 499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/bufanda.jpg",
+      "modalDesc": "Lleva contigo la pasion del futbol.",
+      "badge": "ropa",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "ropa"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$499 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-7",
+      "collection": "articulos-deportivos",
+      "category": "ropa",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Bufanda Mundialista Roja",
+      "desc": "Bufanda de coleccion para fanaticos mundialistas.",
+      "price": "$499 MXN",
+      "priceValue": 499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/bufanda2.jpg",
+      "modalDesc": "Bufanda de coleccion para fanaticos mundialistas.",
+      "badge": "ropa",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "ropa"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$499 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-8",
+      "collection": "articulos-deportivos",
+      "category": "ropa",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Bufanda Mundialista Azul",
+      "desc": "Accesorio para estadio y coleccion.",
+      "price": "$499 MXN",
+      "priceValue": 499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/bufanda3.JPG",
+      "modalDesc": "Accesorio para estadio y coleccion.",
+      "badge": "ropa",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "ropa"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$499 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-9",
+      "collection": "articulos-deportivos",
+      "category": "ropa",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Bufanda Mundialista Retro",
+      "desc": "Diseno retro para dias de partido.",
+      "price": "$499 MXN",
+      "priceValue": 499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/bufanda4.JPG",
+      "modalDesc": "Diseno retro para dias de partido.",
+      "badge": "ropa",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "ropa"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$499 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-10",
+      "collection": "articulos-deportivos",
+      "category": "balones",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Balon Oficial 2022",
+      "desc": "Balon edicion especial Mundial 2022.",
+      "price": "$1,499 MXN",
+      "priceValue": 1499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/balon2.jpg",
+      "modalDesc": "Balon edicion especial Mundial 2022.",
+      "badge": "balones",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "balones"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$1,499 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-11",
+      "collection": "articulos-deportivos",
+      "category": "balones",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Balon Oficial 2018",
+      "desc": "Balon edicion especial Mundial 2018.",
+      "price": "$1,499 MXN",
+      "priceValue": 1499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/balon3.jpg",
+      "modalDesc": "Balon edicion especial Mundial 2018.",
+      "badge": "balones",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "balones"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$1,499 MXN"
+        }
+      ]
+    },
+    {
+      "id": "sports-12",
+      "collection": "articulos-deportivos",
+      "category": "balones",
+      "brand": "Gift for Fifas",
+      "year": "Mundial",
+      "name": "Balon Oficial 2014",
+      "desc": "Balon edicion especial Mundial 2014.",
+      "price": "$1,499 MXN",
+      "priceValue": 1499,
+      "stars": "5/5",
+      "reviews": 0,
+      "img": "/src/assets/img/img articulos deportivos/balon4.jpg",
+      "modalDesc": "Balon edicion especial Mundial 2014.",
+      "badge": "balones",
+      "badgeColor": "dark",
+      "details": [
+        {
+          "label": "Categoria",
+          "value": "balones"
+        },
+        {
+          "label": "Coleccion",
+          "value": "Articulos deportivos"
+        },
+        {
+          "label": "Precio",
+          "value": "$1,499 MXN"
+        }
+      ]
     }
   ],
-  "retros": [
-    {
-      "id": "1",
-      "nombre": "Argentina 2010",
-      "precio": "$1800 MXN",
-      "descripcion": "Revive la elegancia albiceleste con el jersey de visitante utilizado en el Mundial de Sudáfrica 2010. Con un diseño impecable en dos tonos de azul y detalles retro inspirados en los años 80, esta pieza quedó marcada en la historia por ser la primera Copa del Mundo donde Leo Messi portó la legendaria camiseta número 10. Un corte clásico para los verdaderos amantes del fútbol sudamericano.",
-      "imagen": "/src/assets/img/jerseys/argentina_retro.jpg"
-    },
-    {
-      "id": "2",
-      "nombre": "Brasil 2002",
-      "precio": "$1700 MXN",
-      "descripcion": "El año del Pentacampeonato. Esta es la icónica camiseta de local que vistió la selección brasileña en el Mundial de Corea-Japón 2002, donde el Scratch du Oro dominó el planeta de la mano de Ronaldo, Ronaldinho y Rivaldo. Un diseño vibrante con los clásicos vivos verdes en los hombros que respira la auténtica esencia del Jogo Bonito. Una joya obligatoria para cualquier coleccionista.",
-      "imagen": "/src/assets/img/jerseys/brasil_retro.jpg"
-    },
-    {
-      "id": "3",
-      "nombre": "Mexico 1998",
-      "precio": "$1900 MXN",
-      "descripcion": "Una obra de arte hecha jersey. La legendaria camiseta utilizada por la Selección Mexicana en el Mundial de Francia 1998, famosa a nivel mundial por el imponente Calendario Azteca difuminado sobre el clásico color verde. Recordada por las grandes hazañas de Luis Hernández y Cuauhtémoc Blanco, es considerada por expertos internacionales como una de las playeras más hermosas e icónicas en la historia del fútbol.",
-      "imagen": "/src/assets/img/jerseys/mexico_retro.jpg"
-    },
-    {
-      "id": "4",
-      "nombre": "Francia 2006",
-      "precio": "$1900 MXN",
-      "descripcion": "Historia pura del fútbol europeo. El elegante jersey de visitante blanco con el degradado azul y rojo en el pecho, utilizado por la selección francesa en el Mundial de Alemania 2006. Esta camiseta inmortalizó la magistral e inolvidable última campaña de Zinedine Zidane antes de su retiro. Un diseño sobrio, estético y cargado de nostalgia que luce perfecto tanto en la cancha como en la calle.",
-      "imagen": "/src/assets/img/jerseys/francia_retro.jpg"
-    }
-  ],
-
-  "actuales": [
-    {
-      "id": "a1",
-      "nombre": "México 2026",
-      "precio": "$2200 MXN",
-      "descripcion": "Nuevo jersey de México edición 2026...",
-      "imagen": "/src/assets/img/jerseys/mexico_2026.jpg"
-    },
-    {
-      "id": "a2",
-      "nombre": "Francia 2026",
-      "precio": "$2100 MXN",
-      "descripcion": "Diseño moderno de Francia...",
-      "imagen": "/src/assets/img/jerseys/francia_2026.jpg"
-    },
-    {
-      "id": "a3",
-      "nombre": "Inglaterra 2026",
-      "precio": "$2300 MXN",
-      "descripcion": "Jersey elegante de Inglaterra...",
-      "imagen": "/src/assets/img/jerseys/inglaterra_2026.png"
-    },
-    {
-      "id": "a4",
-      "nombre": "Bélgica 2026",
-      "precio": "$2300 MXN",
-      "descripcion": "Jersey de Bélgica edición 2026...",
-      "imagen": "/src/assets/img/jerseys/belgica_2026.jpg"
-    }
-  ],
-
-  "firmado": [
-    {
-      "id": "f1",
-      "nombre": "Messi Argentina Firmado",
-      "precio": "$8500 MXN",
-      "descripcion": "Jersey firmado por Messi con certificado de autenticidad.",
-      "imagen": "/src/assets/img/jerseys/messi.jpg"
-    },
-    {
-      "id": "f2",
-      "nombre": "Cristiano Ronaldo Firmado",
-      "precio": "$9000 MXN",
-      "descripcion": "Camiseta firmada por Cristiano Ronaldo con certificado de autenticidad.",
-      "imagen": "/src/assets/img/jerseys/CR7.jpeg"
-    },
-    {
-      "id": "f3",
-      "nombre": "Neymar Brasil Firmado",
-      "precio": "$7800 MXN",
-      "descripcion": "Jersey de Brasil firmado por Neymar Jr con certificado de autenticidad.",
-      "imagen": "/src/assets/img/jerseys/neymar.jpg"
-    },
-    {
-      "id": "f4",
-      "nombre": "Zidane Francia Firmado",
-      "precio": "$9500 MXN",
-      "descripcion": "Jersey firmado por Zinedine Zidane con certificado de autenticidad.",
-      "imagen": "/src/assets/img/jerseys/zidane.jpg"
-    }
-  ]
+  "collections": {
+    "store": "Tienda retro",
+    "firmados-page": "Articulos firmados y memorabilia",
+    "jerseys-retro": "Jerseys retro",
+    "jerseys-actuales": "Jerseys actuales",
+    "jerseys-firmados": "Jerseys firmados",
+    "articulos-deportivos": "Articulos deportivos"
+  }
 }

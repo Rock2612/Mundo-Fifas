@@ -1,11 +1,11 @@
-// Este archivo controla el catalogo completo de articulos firmados.
-// Usa el JSON unificado y reutiliza los modales con estilo de tienda.
+// Este archivo controla la pagina dedicada a ediciones limitadas.
+// Reutiliza el mismo JSON que el resto del sitio y solo muestra piezas especiales.
 document.addEventListener("DOMContentLoaded", () => {
-  loadSignedCatalog();
+  loadLimitedCatalog();
 });
 
-// Carga los productos firmados y memorabilia desde products.json.
-async function loadSignedCatalog() {
+// Carga los productos y filtra los que pertenecen a ediciones limitadas.
+async function loadLimitedCatalog() {
   const container = document.getElementById("contenedor-productos");
   const modals = document.getElementById("contenedor-modales");
 
@@ -21,7 +21,9 @@ async function loadSignedCatalog() {
     }
 
     const data = await response.json();
-    const products = (data.products || []).filter((product) => product.collection === "firmados-page");
+    const products = (data.products || [])
+      .filter((product) => product.collection === "firmados-page")
+      .filter(isLimitedEdition);
 
     container.innerHTML = products.map((product) => buildProductCard(product)).join("");
     modals.innerHTML = products.map((product) => buildStoreModal(product)).join("");
@@ -31,8 +33,17 @@ async function loadSignedCatalog() {
   }
 }
 
-// Construye una card de producto para el grid.
-// El boton "Ver" abre el modal correspondiente.
+// Decide si un producto debe aparecer en esta seccion.
+// Se revisan textos como badge, categoria y nombre para detectar piezas firmadas o de coleccion.
+function isLimitedEdition(product) {
+  const value = `${product.badge || ""} ${product.category || ""} ${product.name || ""}`.toLowerCase();
+  return value.includes("limitado") ||
+    value.includes("legend") ||
+    value.includes("coleccion") ||
+    value.includes("firmado");
+}
+
+// Construye la card visible del producto.
 function buildProductCard(product) {
   const modalId = getModalId(product.id);
 
@@ -55,7 +66,7 @@ function buildProductCard(product) {
     </div>`;
 }
 
-// Construye el modal de detalle con imagen, descripcion, detalles y boton de carrito.
+// Construye el modal de detalle con el mismo formato usado por store.html.
 function buildStoreModal(product) {
   const modalId = getModalId(product.id);
   const detailsHTML = (product.details || [])
@@ -95,12 +106,12 @@ function buildStoreModal(product) {
     </div>`;
 }
 
-// Genera un id seguro para conectar botones con modales de Bootstrap.
+// Crea un id valido para que Bootstrap pueda abrir el modal correcto.
 function getModalId(id) {
   return `modal-${String(id).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
 }
 
-// Escapa valores dinamicos para evitar problemas al insertar HTML.
+// Protege el HTML de valores dinamicos antes de insertarlos en la pagina.
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")

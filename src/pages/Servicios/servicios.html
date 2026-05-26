@@ -28,7 +28,7 @@
                 </ul>
                 <div class="d-flex gap-2">
                     <button class="btn btn-outline-dark btn-sm">Buscar</button>
-                    <button class="btn btn-dark btn-sm">Carrito</button>
+                    <button class="btn btn-dark btn-sm js-cart-open" type="button">Carrito <span class="cart-count">0</span></button>
                 </div>
             </div>
         </div>
@@ -231,10 +231,13 @@
 
     <div class="modal fade" id="modalConfirmacion" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content store-modal store-modal-simple">
                 <div class="modal-header">
-                    <h5 class="modal-title fw-bold">Solicitud guardada</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div>
+                        <div class="modal-brand">Servicios</div>
+                        <h5 class="modal-title">Solicitud guardada</h5>
+                    </div>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Cerrar">x</button>
                 </div>
                 <div class="modal-body text-center">
                     <p class="fs-5 mb-0">Tu solicitud de saludo fue guardada correctamente.</p>
@@ -245,10 +248,13 @@
 
     <div class="modal fade" id="modalCotizacion" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content store-modal store-modal-simple">
                 <div class="modal-header">
-                    <h5 class="modal-title fw-bold">Solicitud recibida</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div>
+                        <div class="modal-brand">Cotizacion</div>
+                        <h5 class="modal-title">Solicitud recibida</h5>
+                    </div>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Cerrar">x</button>
                 </div>
                 <div class="modal-body text-center">
                     <p class="fs-5 mb-0">Tu solicitud fue recibida y se enviara a tu correo electronico.</p>
@@ -259,10 +265,13 @@
 
     <div class="modal fade" id="modalEnvios" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content store-modal store-modal-simple">
                 <div class="modal-header">
-                    <h5 class="modal-title fw-bold">Costo aproximado</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div>
+                        <div class="modal-brand">Envios</div>
+                        <h5 class="modal-title">Costo aproximado</h5>
+                    </div>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Cerrar">x</button>
                 </div>
                 <div class="modal-body text-center">
                     <p class="fs-5 mb-0">El costo de envio se calculara con la paqueteria disponible.</p>
@@ -272,6 +281,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/src/cart.js"></script>
 </body>
 
 </html>
