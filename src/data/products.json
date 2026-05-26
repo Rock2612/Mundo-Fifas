@@ -86,7 +86,7 @@
       "nombre": "Jersey Holanda 1988",
       "descripcion": "Diseño iconico naranja.",
       "precio": 2990,
-      "img": "",
+      "img": "assets/img/firmados/hol88.webp",
       "badge": "Retro",
       "badgeColor": "warning"
     },
@@ -95,7 +95,7 @@
       "nombre": "Jersey Arsenal 2004",
       "descripcion": "Temporada invicta.",
       "precio": 3290,
-      "img": "",
+      "img": "assets/img/firmados/ars2004.webp",
       "badge": "Retro",
       "badgeColor": "danger"
     },
@@ -104,7 +104,7 @@
       "nombre": "Jersey Inter 2010",
       "descripcion": "Triplete italiano.",
       "precio": 3390,
-      "img": "",
+      "img": "assets/img/firmados/triplita.webp",
       "badge": "Retro",
       "badgeColor": "primary"
     },
@@ -113,7 +113,7 @@
       "nombre": "Jersey Chelsea 2012",
       "descripcion": "Primera Champions.",
       "precio": 3190,
-      "img": "",
+      "img": "assets/img/firmados/chel2012.webp",
       "badge": "Retro",
       "badgeColor": "primary"
     },
@@ -122,7 +122,7 @@
       "nombre": "Jersey Liverpool 2005",
       "descripcion": "Final de Estambul.",
       "precio": 3490,
-      "img": "",
+      "img": "assets/img/firmados/liver2005.webp",
       "badge": "Retro",
       "badgeColor": "danger"
     },
@@ -131,7 +131,7 @@
       "nombre": "Jersey PSG 1994",
       "descripcion": "Clasico parisino.",
       "precio": 2590,
-      "img": "",
+      "img": "assets/img/firmados/PSG1994.webp",
       "badge": "Retro",
       "badgeColor": "primary"
     },
@@ -140,7 +140,7 @@
       "nombre": "Jersey Atletico Madrid 1996",
       "descripcion": "Doblete español.",
       "precio": 2790,
-      "img": "",
+      "img": "assets/img/firmados/atlmad1996.webp",
       "badge": "Retro",
       "badgeColor": "danger"
     },
@@ -149,7 +149,7 @@
       "nombre": "Jersey Dortmund 1997",
       "descripcion": "Campeon europeo.",
       "precio": 2990,
-      "img": "",
+      "img": "assets/img/firmados/dort1997.jpg",
       "badge": "Retro",
       "badgeColor": "warning"
     },
@@ -158,7 +158,7 @@
       "nombre": "Jersey AC Milan 1994",
       "descripcion": "Equipo legendario.",
       "precio": 3690,
-      "img": "",
+      "img": "assets/img/firmados/acmil1994.webp",
       "badge": "Retro",
       "badgeColor": "danger"
     },
@@ -167,7 +167,7 @@
       "nombre": "Jersey Francia 1998",
       "descripcion": "Campeones en casa.",
       "precio": 3190,
-      "img": "",
+      "img": "assets/img/firmados/fran1998.jpg",
       "badge": "Retro",
       "badgeColor": "primary"
     },
@@ -176,7 +176,7 @@
       "nombre": "Jersey Inglaterra 1990",
       "descripcion": "Clasico mundialista.",
       "precio": 2890,
-      "img": "",
+      "img": "assets/img/firmados/ingl1990.webp",
       "badge": "Retro",
       "badgeColor": "light"
     }
@@ -371,7 +371,7 @@
       "nombre": "Balon Champions League",
       "descripcion": "Balon oficial UEFA.",
       "precio": 2490,
-      "img": "",
+      "img": "assets/img/firmados/champue.webp",
       "badge": "Nuevo",
       "badgeColor": "primary"
     },
@@ -380,7 +380,7 @@
       "nombre": "Guantes firmados Buffon",
       "descripcion": "Par profesional autenticado.",
       "precio": 8990,
-      "img": "",
+      "img": "assets/img/firmados/bufgua.webp",
       "badge": "Limitado",
       "badgeColor": "warning"
     },
@@ -389,7 +389,7 @@
       "nombre": "Casco NFL firmado Brady",
       "descripcion": "Helmet de coleccion NFL.",
       "precio": 22990,
-      "img": "",
+      "img": "assets/img/firmados/nflcas.jpg",
       "badge": "Firmado",
       "badgeColor": "primary"
     },
@@ -398,7 +398,7 @@
       "nombre": "Balon NBA firmado Kobe Bryant",
       "descripcion": "Balon Spalding oficial.",
       "precio": 29990,
-      "img": "",
+      "img": "assets/img/firmados/spalkobe.jpg",
       "badge": "Legend",
       "badgeColor": "dark"
     },
@@ -407,7 +407,7 @@
       "nombre": "Bat firmado Derek Jeter",
       "descripcion": "Edicion MLB.",
       "precio": 15990,
-      "img": "",
+      "img": "assets/img/firmados/jetermlb.jpg",
       "badge": "MLB",
       "badgeColor": "secondary"
     },
@@ -416,7 +416,7 @@
       "nombre": "Espinilleras Nike Mercurial",
       "descripcion": "Proteccion profesional.",
       "precio": 890,
-      "img": "",
+      "img": "assets/img/firmados/merc.webp",
       "badge": "Training",
       "badgeColor": "dark"
     },
@@ -425,7 +425,7 @@
       "nombre": "Mochila Adidas Football",
       "descripcion": "Impermeable deportiva.",
       "precio": 1290,
-      "img": "",
+      "img": "assets/img/firmados/modep.jpg",
       "badge": "Nuevo",
       "badgeColor": "secondary"
     },
@@ -434,7 +434,7 @@
       "nombre": "Conos de entrenamiento",
       "descripcion": "Set profesional.",
       "precio": 590,
-      "img": "",
+      "img": "assets/img/firmados/cono.jpg",
       "badge": "Training",
       "badgeColor": "success"
     },
@@ -443,7 +443,7 @@
       "nombre": "Balon Puma La Liga",
       "descripcion": "Edicion oficial.",
       "precio": 1890,
-      "img": "",
+      "img": "assets/img/firmados/ligapum.webp",
       "badge": "Nuevo",
       "badgeColor": "danger"
     },
@@ -452,7 +452,7 @@
       "nombre": "Guantes Elite Goalkeeper",
       "descripcion": "Grip profesional.",
       "precio": 2490,
-      "img": "",
+      "img": "assets/img/firmados/elitkeep.webp",
       "badge": "Pro",
       "badgeColor": "warning"
     },
@@ -461,7 +461,7 @@
       "nombre": "Cronometro digital",
       "descripcion": "Ideal para entrenamiento.",
       "precio": 690,
-      "img": "",
+      "img": "assets/img/firmados/cron.jpg",
       "badge": "Training",
       "badgeColor": "success"
     },
@@ -470,7 +470,7 @@
       "nombre": "Cuerda de velocidad",
       "descripcion": "Accesorio fitness.",
       "precio": 490,
-      "img": "",
+      "img": "assets/img/firmados/cuerdve.webp",
       "badge": "Gym",
       "badgeColor": "dark"
     },
@@ -479,7 +479,7 @@
       "nombre": "Balon firmado Pelé",
       "descripcion": "Pieza vintage.",
       "precio": 24990,
-      "img": "",
+      "img": "assets/img/firmados/balpel.jpg",
       "badge": "Coleccion",
       "badgeColor": "dark"
     },
@@ -488,7 +488,7 @@
       "nombre": "Casco firmado Mahomes",
       "descripcion": "Coleccion NFL.",
       "precio": 19990,
-      "img": "",
+      "img": "assets/img/firmados/mahocas.webp",
       "badge": "Firmado",
       "badgeColor": "danger"
     },
@@ -497,7 +497,7 @@
       "nombre": "Balon firmado Magic Johnson",
       "descripcion": "NBA memorabilia.",
       "precio": 18990,
-      "img": "",
+      "img": "assets/img/firmados/majoh.webp",
       "badge": "Legend",
       "badgeColor": "warning"
     },
@@ -506,7 +506,7 @@
       "nombre": "Bandas elasticas",
       "descripcion": "Set fitness deportivo.",
       "precio": 790,
-      "img": "",
+      "img": "assets/img/firmados/bandel.avif",
       "badge": "Fitness",
       "badgeColor": "success"
     },
@@ -515,7 +515,7 @@
       "nombre": "Termo deportivo Nike",
       "descripcion": "Botella termica premium.",
       "precio": 690,
-      "img": "",
+      "img": "assets/img/firmados/niketerm.webp",
       "badge": "Nuevo",
       "badgeColor": "primary"
     },
@@ -524,7 +524,7 @@
       "nombre": "Red de entrenamiento",
       "descripcion": "Porteria plegable.",
       "precio": 1490,
-      "img": "",
+      "img": "assets/img/firmados/red.webp",
       "badge": "Training",
       "badgeColor": "success"
     },
@@ -533,7 +533,7 @@
       "nombre": "Balon retro Adidas Tango",
       "descripcion": "Diseño clasico.",
       "precio": 2790,
-      "img": "",
+      "img": "assets/img/firmados/adid.jpg",
       "badge": "Retro",
       "badgeColor": "light"
     },
@@ -542,7 +542,7 @@
       "nombre": "Guantes firmados Casillas",
       "descripcion": "Memorabilia española.",
       "precio": 12990,
-      "img": "",
+      "img": "assets/img/firmados/casillasgua.jpg",
       "badge": "Firmado",
       "badgeColor": "primary"
     }
