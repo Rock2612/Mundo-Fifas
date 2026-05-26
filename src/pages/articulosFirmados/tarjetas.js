@@ -8,33 +8,41 @@ function formatPrice(price) {
     return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN' }).format(price);
 }
 
-// ... aquí sigue tu código actual de document.addEventListener ...
+function fixImgPath(path) {
+    if (!path) return '/src/assets/img/placeholder.jpg';
+    if (path.startsWith('http')) return path;
+    if (!path.startsWith('/src/')) return '/src/assets/img/placeholder.jpg';
+    return path;
+}
 
 // tarjetas.js
 document.addEventListener("DOMContentLoaded", async () => {
     const contenedor = document.getElementById('contenedor-productos');
     const contenedorModales = document.getElementById('contenedor-modales');
-
     if (!contenedor || !contenedorModales) return;
 
     try {
-        // Usamos una ruta absoluta desde la raíz de tu proyecto
-        // Si tu carpeta es "MUNDO-FIFAS", esto buscará desde ahí
         const response = await fetch("/src/data/products.json");
-        
+
         if (!response.ok) {
-            throw new Error(`No se pudo cargar el archivo: ${response.status}`);
+            throw new Error("No se pudo cargar el archivo: " + response.status);
         }
-        
+
         const data = await response.json();
-        const todosLosProductos = [...data.firmados, ...data.retro, ...data.articulos];
+        const todosLosProductos = data.firmados
+            .filter(p => p.id >= 21 && p.id <= 40 && p.img && p.img.trim() !== "");
 
         // 1. Renderizar Tarjetas
         contenedor.innerHTML = todosLosProductos.map(p => `
             <div class="col-md-6 col-lg-4">
                 <article class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="${escapeHtml(p.img || 'assets/img/placeholder.jpg')}" class="product-image" alt="${escapeHtml(p.nombre)}">
+                        <img 
+                            src="${escapeHtml(fixImgPath(p.img))}" 
+                            class="product-image" 
+                            alt="${escapeHtml(p.nombre)}"
+                            onerror="this.onerror=null;this.src='/src/assets/img/placeholder.jpg';"
+                        >
                     </div>
                     <div class="product-body">
                         <span class="badge text-bg-${escapeHtml(p.badgeColor || 'dark')}">${escapeHtml(p.badge || "Producto")}</span>
@@ -59,6 +67,12 @@ document.addEventListener("DOMContentLoaded", async () => {
                             <button class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
                         <div class="modal-body">
+                            <img 
+                                src="${escapeHtml(fixImgPath(p.img))}" 
+                                class="img-fluid rounded mb-3" 
+                                alt="${escapeHtml(p.nombre)}"
+                                onerror="this.onerror=null;this.src='/src/assets/img/placeholder.jpg';"
+                            >
                             <p>${escapeHtml(p.descripcion)}</p>
                             <span class="modal-price">${formatPrice(p.precio)}</span>
                         </div>
@@ -73,6 +87,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     } catch (error) {
         console.error("Error al cargar los productos:", error);
-        contenedor.innerHTML = `<p class="text-center">Error al cargar productos. Revisa la consola (F12).</p>`;
+        contenedor.innerHTML = "<p class='text-center'>Error al cargar productos. Revisa la consola (F12).</p>";
     }
 });
