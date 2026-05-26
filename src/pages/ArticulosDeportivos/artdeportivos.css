@@ -59,6 +59,7 @@ body {
   font-size: clamp(2.6rem, 6vw, 5.4rem);
   font-weight: 900;
   line-height: .95;
+  overflow-wrap: anywhere;
 }
 
 .carousel-caption p {
@@ -187,6 +188,7 @@ body {
   font-size: 1.14rem;
   font-weight: 900;
   line-height: 1.15;
+  overflow-wrap: anywhere;
 }
 
 .card-body p {
@@ -292,16 +294,33 @@ body {
   }
 
   .hero-img {
-    height: 760px;
+    height: 680px;
     min-height: 0;
+  }
+
+  .carousel-caption {
+    bottom: 14%;
   }
 }
 
 @media (max-width: 768px) {
   .carousel-caption {
     right: 22px;
-    bottom: 12%;
+    bottom: 10%;
     left: 22px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .productos-section {
+    padding: 46px 0 72px;
   }
 
   .img-container {
@@ -311,10 +330,41 @@ body {
 
 @media (max-width: 576px) {
   .hero-img {
-    height: 700px;
+    height: 620px;
+  }
+
+  .carousel-caption {
+    bottom: 9%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2.15rem;
+  }
+
+  .carousel-caption .btn {
+    width: 100%;
   }
 
   .filters button {
     width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-img {
+    height: 560px;
+  }
+
+  .carousel-caption {
+    right: 16px;
+    left: 16px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.9rem;
+  }
+
+  .img-container {
+    height: 220px;
   }
 }

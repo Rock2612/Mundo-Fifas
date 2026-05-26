@@ -21,6 +21,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 82px;
 }
 
 body {
@@ -56,6 +57,7 @@ a {
 
 .navbar-brand {
     font-size: 1.25rem;
+    white-space: nowrap;
 }
 
 .nav-link {
@@ -229,6 +231,7 @@ a {
     font-size: clamp(2rem, 4vw, 3.5rem);
     font-weight: 900;
     line-height: 1;
+    overflow-wrap: anywhere;
 }
 
 .page-hero {
@@ -275,6 +278,7 @@ a {
     font-size: clamp(2.6rem, 7vw, 5.8rem);
     font-weight: 900;
     line-height: .95;
+    overflow-wrap: anywhere;
 }
 
 .page-hero p {
@@ -435,6 +439,7 @@ a {
     max-width: 190px;
     font-size: 1.55rem;
     line-height: 1.05;
+    overflow-wrap: anywhere;
 }
 
 /* ========================= */
@@ -542,6 +547,7 @@ a {
     font-size: 1.14rem;
     font-weight: 900;
     line-height: 1.15;
+    overflow-wrap: anywhere;
 }
 
 .product-body p {
@@ -555,6 +561,7 @@ a {
     border-radius: var(--radius-card);
     font-family: "Inter", Arial, sans-serif;
     box-shadow: 0 24px 80px rgba(0, 0, 0, .18);
+    max-height: calc(100vh - 32px);
 }
 
 .store-modal .modal-header {
@@ -638,6 +645,7 @@ a {
     flex-direction: column;
     padding: 28px 28px 24px;
     overflow-y: auto;
+    min-width: 0;
 }
 
 .store-modal .modal-info-col p {
@@ -675,6 +683,7 @@ a {
     color: var(--tinta);
     font-weight: 700;
     text-align: right;
+    overflow-wrap: anywhere;
 }
 
 .modal-price-row {
@@ -774,6 +783,10 @@ a {
     background: #fff;
 }
 
+.cart-line > div {
+    min-width: 0;
+}
+
 .cart-line img {
     width: 58px;
     height: 58px;
@@ -792,6 +805,7 @@ a {
     font-size: .92rem;
     font-weight: 900;
     line-height: 1.15;
+    overflow-wrap: anywhere;
 }
 
 .cart-line span {
@@ -994,6 +1008,24 @@ a {
         padding-top: 64px;
     }
 
+    .navbar-collapse {
+        padding: 14px 0 10px;
+    }
+
+    .navbar .d-flex.gap-2,
+    .navbar .d-flex.gap-3 {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 8px !important;
+        margin-top: 8px;
+    }
+
+    .navbar .d-flex.gap-2 .btn,
+    .navbar .d-flex.gap-3 .btn {
+        flex: 1 1 auto;
+        min-width: 132px;
+    }
+
     .hero-section {
         min-height: 700px;
     }
@@ -1001,12 +1033,42 @@ a {
     .display-3 {
         font-size: 3.2rem;
     }
+
+    .page-hero {
+        min-height: 380px;
+    }
+
+    .page-hero-content {
+        padding: 76px 0 52px;
+    }
 }
 
 @media (max-width: 767.98px) {
 
+    .section-title {
+        font-size: 2.15rem;
+        line-height: 1.04;
+    }
+
+    .page-hero {
+        min-height: 340px;
+    }
+
+    .page-hero h1 {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    .page-hero-content {
+        padding: 64px 0 44px;
+    }
+
     .store-modal .modal-body {
         grid-template-columns: 1fr;
+    }
+
+    .store-modal {
+        max-height: calc(100vh - 20px);
     }
 
     .store-modal .modal-img-col {
@@ -1020,6 +1082,17 @@ a {
     .store-modal .modal-header,
     .store-modal .modal-footer {
         padding: 20px;
+    }
+
+    .store-modal .modal-footer,
+    .modal-price-row {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .btn-modal-close,
+    .btn-modal-cart {
+        width: 100%;
     }
 
     .product-carousel {
@@ -1049,12 +1122,19 @@ a {
         min-height: 64px;
     }
 
+    .navbar-brand {
+        max-width: calc(100vw - 92px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .hero-section {
-        min-height: 760px;
+        min-height: 680px;
     }
 
     .display-3 {
-        font-size: 2.55rem;
+        font-size: 2.35rem;
+        line-height: 1.02;
     }
 
     .hero-stats-panel {
@@ -1063,6 +1143,16 @@ a {
 
     .section-spacing {
         padding: 60px 0;
+    }
+
+    .page-shell,
+    .contact-section {
+        padding: 56px 0;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 24px;
     }
 
     .category-card {
@@ -1080,5 +1170,35 @@ a {
 
     .site-footer form .btn {
         width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .hero-stats-panel > div {
+        padding: 14px;
+    }
+
+    .category-card {
+        min-height: 180px;
+    }
+
+    .category-card strong {
+        font-size: 1.05rem;
+    }
+
+    .product-search .input-group-text,
+    .product-search .form-control {
+        min-height: 48px;
+        font-size: .92rem;
+    }
+
+    .cart-line {
+        grid-template-columns: 48px 1fr 28px;
+        gap: 10px;
+    }
+
+    .cart-line img {
+        width: 48px;
+        height: 48px;
     }
 }

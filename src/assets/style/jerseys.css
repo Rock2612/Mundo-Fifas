@@ -56,6 +56,7 @@
     font-size: 1.08rem;
     font-weight: 900;
     line-height: 1.15;
+    overflow-wrap: anywhere;
 }
 
 .card-body p,
@@ -105,4 +106,35 @@
     object-fit: contain;
     border-radius: 8px;
     background: var(--soft-bg);
+}
+
+@media (max-width: 767.98px) {
+    .collection-block,
+    .collection-block:first-of-type,
+    .collection-block:last-of-type {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+    .collection-heading {
+        margin-bottom: 18px;
+    }
+
+    .card-img-top {
+        height: 230px;
+    }
+
+    #previewBox {
+        min-height: 170px;
+    }
+}
+
+@media (max-width: 420px) {
+    .card-img-top {
+        height: 210px;
+    }
+
+    .customizer-card {
+        padding: 18px;
+    }
 }
