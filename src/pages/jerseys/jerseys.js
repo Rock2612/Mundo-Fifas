@@ -192,7 +192,7 @@ function previewJersey() {
 // Guarda el jersey personalizado en localStorage y limpia el formulario.
 function saveJersey() {
     if (!tempPersonalizado.team) {
-        alert("Primero genera la vista previa");
+        showJerseyAlert("Primero genera la vista previa", "warning");
         return;
     }
 
@@ -202,13 +202,19 @@ function saveJersey() {
     });
 
     localStorage.setItem("personalizados", JSON.stringify(personalizados));
-    alert("Guardado correctamente");
+    showJerseyAlert("Guardado correctamente", "success");
 
     tempPersonalizado = {};
     document.getElementById("team").value = "";
     document.getElementById("name").value = "";
     document.getElementById("number").value = "";
     document.getElementById("previewBox").innerHTML = `<p class="text-muted m-0">Aqui veras tu jersey</p>`;
+}
+
+function showJerseyAlert(message, type) {
+    if (window.showSiteAlert) {
+        window.showSiteAlert(message, type);
+    }
 }
 
 // Convierte cualquier id en un valor seguro para usarlo como id de modal.

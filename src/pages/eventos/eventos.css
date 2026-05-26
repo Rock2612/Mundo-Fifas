@@ -1,0 +1,167 @@
+.events-hero {
+    --page-hero-image: url("/src/assets/img/home/fanaticos.jpg");
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid var(--linea);
+    border-radius: var(--radius-card);
+    background: #fff;
+    transition: var(--transition);
+}
+
+.event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, .1);
+}
+
+.event-card img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+.event-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.event-card h3 {
+    margin: 8px 0;
+    color: var(--tinta);
+    font-size: 1.22rem;
+    font-weight: 900;
+}
+
+.event-card p {
+    flex: 1;
+    margin-bottom: 18px;
+    color: var(--texto-suave);
+    font-weight: 700;
+}
+
+.event-card-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.ticket-page {
+    min-height: 100vh;
+    background: var(--soft-bg);
+}
+
+.ticket-shell {
+    min-height: 100vh;
+    padding: 120px 16px 56px;
+}
+
+.ticket-panel {
+    display: grid;
+    grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+    max-width: 1040px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid var(--linea);
+    border-radius: var(--radius-card);
+    background: #fff;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, .1);
+}
+
+.ticket-summary {
+    --ticket-image: url("/src/assets/img/eventos/edson-vini.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 520px;
+    padding: 34px;
+    color: #fff;
+    background:
+        linear-gradient(180deg, rgba(17, 19, 21, .12), rgba(17, 19, 21, .86)),
+        var(--ticket-image) center / cover;
+}
+
+.ticket-summary h1 {
+    margin: 14px 0;
+    color: #fff;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    font-weight: 900;
+}
+
+.ticket-summary p {
+    color: rgba(255, 255, 255, .78);
+    font-weight: 700;
+}
+
+.ticket-price-row,
+.ticket-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 22px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, .24);
+}
+
+.ticket-price-row span,
+.ticket-total span {
+    font-weight: 900;
+}
+
+.ticket-price-row strong,
+.ticket-total strong {
+    color: var(--acento);
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.ticket-form {
+    padding: 34px;
+}
+
+.ticket-form .form-label {
+    color: var(--tinta);
+    font-size: .82rem;
+    font-weight: 900;
+}
+
+.ticket-total {
+    margin: 24px 0;
+    border-color: var(--linea);
+}
+
+.ticket-total strong {
+    color: var(--tinta);
+}
+
+.payment-box {
+    padding: 20px;
+    border: 1px solid var(--linea);
+    border-radius: var(--radius-card);
+    background: var(--soft-bg);
+}
+
+@media (max-width: 767.98px) {
+    .event-card-actions {
+        grid-template-columns: 1fr;
+    }
+
+    .ticket-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .ticket-summary {
+        min-height: 360px;
+        padding: 26px;
+    }
+
+    .ticket-form {
+        padding: 26px;
+    }
+}

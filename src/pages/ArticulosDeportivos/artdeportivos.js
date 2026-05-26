@@ -3,7 +3,6 @@ let productos = [];
 
 // Referencias a los elementos principales de la pagina.
 const contenedor = document.getElementById("contenedor-productos");
-const searchBtn = document.querySelector(".search-btn");
 const filterButtons = document.querySelectorAll(".filters button");
 
 // Cuando el HTML esta listo se carga el catalogo deportivo.
@@ -123,23 +122,6 @@ filterButtons.forEach((button) => {
 
     renderizarProductos(filteredProducts);
   });
-});
-
-// Buscador simple por nombre de producto.
-// Usa prompt para pedir texto y vuelve a pintar solo los resultados encontrados.
-searchBtn.addEventListener("click", () => {
-  const texto = prompt("Buscar producto:");
-
-  if (!texto) {
-    return;
-  }
-
-  const busqueda = texto.toLowerCase();
-  const filtrados = productos.filter((producto) =>
-    producto.name.toLowerCase().includes(busqueda),
-  );
-
-  renderizarProductos(filtrados);
 });
 
 // Convierte ids del JSON en ids validos para los modales de Bootstrap.

@@ -36,7 +36,6 @@ function renderStoreProducts(products, options) {
 
   grid.innerHTML = products.map((product) => buildStoreCard(product)).join("");
   modals.innerHTML = products.map((product) => buildStoreModal(product)).join("");
-  initCartAlert();
 }
 
 // Crea la card visual de la tienda.
@@ -105,18 +104,6 @@ function buildStoreModal(product) {
         </div>
       </div>
     </div>`;
-}
-
-// Muestra la alerta propia de store.html cuando se agrega un producto.
-// El carrito global tambien guarda el producto; esta alerta solo da retroalimentacion visual.
-function initCartAlert() {
-  document.addEventListener("click", (event) => {
-    if (!event.target.classList.contains("add-cart")) return;
-    const alert = document.getElementById("cartAlert");
-    if (!alert) return;
-    alert.classList.add("show");
-    setTimeout(() => alert.classList.remove("show"), 2500);
-  });
 }
 
 // Convierte el id de producto en un id seguro para usarlo en data-bs-target.

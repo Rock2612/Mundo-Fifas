@@ -75,11 +75,11 @@ function bindCartEvents() {
       const cart = getCart();
 
       if (!cart.length) {
-        alert("Tu carrito esta vacio.");
+        showSiteAlert("Tu carrito esta vacio.", "warning");
         return;
       }
 
-      alert("Gracias por tu compra.");
+      showSiteAlert("Gracias por tu compra.", "success");
       saveCart([]);
       renderCart();
     }
@@ -182,7 +182,7 @@ function ensureCartDrawer() {
   }
 
   document.body.insertAdjacentHTML("beforeend", `
-    <div class="cart-toast" id="cartToast" aria-live="polite"></div>
+    <div class="cart-toast site-toast" id="siteToast" role="status" aria-live="polite" aria-atomic="true"></div>
     <div class="offcanvas offcanvas-end global-cart" tabindex="-1" id="globalCartDrawer">
       <div class="offcanvas-header">
         <div>
@@ -218,16 +218,35 @@ function openCartDrawer() {
 
 // Muestra una notificacion temporal cuando se agrega un producto.
 function showCartFeedback(name) {
-  const toast = document.getElementById("cartToast");
+  showSiteAlert(`${name} agregado al carrito`, "success");
+}
+
+// Muestra una alerta visual consistente en cualquier pagina del sitio.
+function showSiteAlert(message, type = "success") {
+  let toast = document.getElementById("siteToast");
 
   if (!toast) {
-    return;
+    document.body.insertAdjacentHTML("beforeend", `
+      <div class="cart-toast site-toast" id="siteToast" role="status" aria-live="polite" aria-atomic="true"></div>
+    `);
+    toast = document.getElementById("siteToast");
   }
 
-  toast.textContent = `${name} agregado al carrito`;
+  const icon = type === "warning" ? "!" : "+";
+
+  toast.classList.remove("show", "site-toast-warning", "site-toast-success");
+  toast.classList.add(type === "warning" ? "site-toast-warning" : "site-toast-success");
+  toast.innerHTML = `
+    <span class="site-toast-icon" aria-hidden="true">${icon}</span>
+    <span class="site-toast-message">${escapeHtml(message)}</span>
+  `;
+
+  clearTimeout(toast.hideTimer);
   toast.classList.add("show");
-  setTimeout(() => toast.classList.remove("show"), 2200);
+  toast.hideTimer = setTimeout(() => toast.classList.remove("show"), 2400);
 }
+
+window.showSiteAlert = showSiteAlert;
 
 // Escapa texto dinamico antes de insertarlo como HTML.
 // Esto evita que nombres o descripciones rompan el marcado de la pagina.
